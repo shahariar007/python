@@ -1,0 +1,907 @@
+{
+	"info": {
+		"_postman_id": "2e8972dd-0334-4aa5-bb6b-8c386554ad19",
+		"name": "EDCR",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "456671"
+	},
+	"item": [
+		{
+			"name": "PostDVR",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/x-www-form-urlencoded",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "UserId",
+							"value": "P49R1E",
+							"type": "text"
+						},
+						{
+							"key": "Year",
+							"value": "2019",
+							"type": "text"
+						},
+						{
+							"key": "MonthNumber",
+							"value": "09",
+							"type": "text"
+						},
+						{
+							"key": "JsonString",
+							"value": "{\"MasterList\":[{\"DayNumber\":\"10\",\"DetailList\":[{\"DetailSL\":\"e10371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"182218\",\"id\":0}],\"SetTime\":\"15:30\"},{\"DetailSL\":\"m10371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"137861\",\"id\":0},{\"DoctorID\":\"98360\",\"id\":0},{\"DoctorID\":\"105402\",\"id\":0},{\"DoctorID\":\"2394\",\"id\":0},{\"DoctorID\":\"137850\",\"id\":0},{\"DoctorID\":\"137844\",\"id\":0},{\"DoctorID\":\"2395\",\"id\":0},{\"DoctorID\":\"2393\",\"id\":0},{\"DoctorID\":\"109\",\"id\":0}],\"SetTime\":\"08:30\"}]},{\"DayNumber\":\"11\",\"DetailList\":[{\"DetailSL\":\"m11371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"185719\",\"id\":0},{\"DoctorID\":\"137481\",\"id\":0},{\"DoctorID\":\"137452\",\"id\":0},{\"DoctorID\":\"180735\",\"id\":0},{\"DoctorID\":\"132207\",\"id\":0},{\"DoctorID\":\"180725\",\"id\":0},{\"DoctorID\":\"178429\",\"id\":0},{\"DoctorID\":\"167096\",\"id\":0},{\"DoctorID\":\"180726\",\"id\":0},{\"DoctorID\":\"123021\",\"id\":0},{\"DoctorID\":\"137451\",\"id\":0},{\"DoctorID\":\"180731\",\"id\":0},{\"DoctorID\":\"42038\",\"id\":0},{\"DoctorID\":\"65368\",\"id\":0},{\"DoctorID\":\"137443\",\"id\":0},{\"DoctorID\":\"170253\",\"id\":0},{\"DoctorID\":\"95060\",\"id\":0},{\"DoctorID\":\"180736\",\"id\":0}],\"SetTime\":\"09:00\"},{\"DetailSL\":\"e11371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0}],\"SetTime\":\"15:30\"}]},{\"DayNumber\":\"12\",\"DetailList\":[{\"DetailSL\":\"m12371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"100193\",\"id\":0},{\"DoctorID\":\"65364\",\"id\":0},{\"DoctorID\":\"159888\",\"id\":0},{\"DoctorID\":\"2417\",\"id\":0},{\"DoctorID\":\"79754\",\"id\":0},{\"DoctorID\":\"179911\",\"id\":0},{\"DoctorID\":\"182599\",\"id\":0},{\"DoctorID\":\"88172\",\"id\":0},{\"DoctorID\":\"159644\",\"id\":0},{\"DoctorID\":\"46165\",\"id\":0},{\"DoctorID\":\"89158\",\"id\":0},{\"DoctorID\":\"137872\",\"id\":0},{\"DoctorID\":\"74680\",\"id\":0},{\"DoctorID\":\"36345\",\"id\":0},{\"DoctorID\":\"81114\",\"id\":0},{\"DoctorID\":\"98376\",\"id\":0},{\"DoctorID\":\"2382\",\"id\":0},{\"DoctorID\":\"182597\",\"id\":0},{\"DoctorID\":\"65363\",\"id\":0},{\"DoctorID\":\"179906\",\"id\":0},{\"DoctorID\":\"184228\",\"id\":0},{\"DoctorID\":\"179908\",\"id\":0},{\"DoctorID\":\"150188\",\"id\":0},{\"DoctorID\":\"621\",\"id\":0},{\"DoctorID\":\"36275\",\"id\":0},{\"DoctorID\":\"89154\",\"id\":0},{\"DoctorID\":\"101544\",\"id\":0},{\"DoctorID\":\"2386\",\"id\":0},{\"DoctorID\":\"106198\",\"id\":0}],\"SetTime\":\"08:30\"},{\"DetailSL\":\"e12371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0}],\"SetTime\":\"15:00\"}]},{\"DayNumber\":\"14\",\"DetailList\":[{\"DetailSL\":\"m14371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"179906\",\"id\":0},{\"DoctorID\":\"2386\",\"id\":0},{\"DoctorID\":\"159888\",\"id\":0},{\"DoctorID\":\"182599\",\"id\":0},{\"DoctorID\":\"79754\",\"id\":0},{\"DoctorID\":\"100193\",\"id\":0},{\"DoctorID\":\"65363\",\"id\":0},{\"DoctorID\":\"179908\",\"id\":0},{\"DoctorID\":\"36275\",\"id\":0},{\"DoctorID\":\"179911\",\"id\":0},{\"DoctorID\":\"65364\",\"id\":0},{\"DoctorID\":\"88172\",\"id\":0},{\"DoctorID\":\"150188\",\"id\":0},{\"DoctorID\":\"89158\",\"id\":0},{\"DoctorID\":\"137872\",\"id\":0},{\"DoctorID\":\"184228\",\"id\":0},{\"DoctorID\":\"106198\",\"id\":0},{\"DoctorID\":\"2382\",\"id\":0},{\"DoctorID\":\"101544\",\"id\":0},{\"DoctorID\":\"182597\",\"id\":0},{\"DoctorID\":\"89154\",\"id\":0},{\"DoctorID\":\"74680\",\"id\":0},{\"DoctorID\":\"159644\",\"id\":0},{\"DoctorID\":\"46165\",\"id\":0},{\"DoctorID\":\"2417\",\"id\":0},{\"DoctorID\":\"98376\",\"id\":0},{\"DoctorID\":\"36345\",\"id\":0},{\"DoctorID\":\"621\",\"id\":0},{\"DoctorID\":\"81114\",\"id\":0}],\"SetTime\":\"08:30\"},{\"DetailSL\":\"e14371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0}],\"SetTime\":\"15:30\"}]},{\"DayNumber\":\"15\",\"DetailList\":[{\"DetailSL\":\"m15371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"2304\",\"id\":0},{\"DoctorID\":\"185720\",\"id\":0},{\"DoctorID\":\"137910\",\"id\":0},{\"DoctorID\":\"137909\",\"id\":0},{\"DoctorID\":\"30176\",\"id\":0},{\"DoctorID\":\"2424\",\"id\":0},{\"DoctorID\":\"137431\",\"id\":0},{\"DoctorID\":\"178437\",\"id\":0},{\"DoctorID\":\"137871\",\"id\":0},{\"DoctorID\":\"137897\",\"id\":0}],\"SetTime\":\"08:30\"},{\"DetailSL\":\"e15371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0}],\"SetTime\":\"15:30\"}]},{\"DayNumber\":\"16\",\"DetailList\":[{\"DetailSL\":\"m16371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"180736\",\"id\":0},{\"DoctorID\":\"180726\",\"id\":0},{\"DoctorID\":\"137451\",\"id\":0},{\"DoctorID\":\"137481\",\"id\":0},{\"DoctorID\":\"180731\",\"id\":0},{\"DoctorID\":\"123021\",\"id\":0},{\"DoctorID\":\"137452\",\"id\":0},{\"DoctorID\":\"167096\",\"id\":0},{\"DoctorID\":\"132207\",\"id\":0},{\"DoctorID\":\"178429\",\"id\":0},{\"DoctorID\":\"170253\",\"id\":0},{\"DoctorID\":\"180725\",\"id\":0},{\"DoctorID\":\"185719\",\"id\":0},{\"DoctorID\":\"95060\",\"id\":0},{\"DoctorID\":\"65368\",\"id\":0},{\"DoctorID\":\"42038\",\"id\":0},{\"DoctorID\":\"137443\",\"id\":0},{\"DoctorID\":\"180735\",\"id\":0}],\"SetTime\":\"09:00\"},{\"DetailSL\":\"e16371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"173946\",\"id\":0},{\"DoctorID\":\"2423\",\"id\":0},{\"DoctorID\":\"2392\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0},{\"DoctorID\":\"159632\",\"id\":0},{\"DoctorID\":\"150194\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"38\",\"id\":0},{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0},{\"DoctorID\":\"2379\",\"id\":0},{\"DoctorID\":\"2376\",\"id\":0},{\"DoctorID\":\"76946\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"101110\",\"id\":0},{\"DoctorID\":\"90204\",\"id\":0},{\"DoctorID\":\"36289\",\"id\":0},{\"DoctorID\":\"179907\",\"id\":0},{\"DoctorID\":\"101112\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"737\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"2377\",\"id\":0},{\"DoctorID\":\"165518\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"179909\",\"id\":0},{\"DoctorID\":\"87287\",\"id\":0},{\"DoctorID\":\"173936\",\"id\":0}],\"SetTime\":\"14:30\"}]},{\"DayNumber\":\"17\",\"DetailList\":[{\"DetailSL\":\"m17371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"159888\",\"id\":0},{\"DoctorID\":\"2417\",\"id\":0},{\"DoctorID\":\"179908\",\"id\":0},{\"DoctorID\":\"106198\",\"id\":0},{\"DoctorID\":\"2386\",\"id\":0},{\"DoctorID\":\"79754\",\"id\":0},{\"DoctorID\":\"46165\",\"id\":0},{\"DoctorID\":\"179911\",\"id\":0},{\"DoctorID\":\"137872\",\"id\":0},{\"DoctorID\":\"65364\",\"id\":0},{\"DoctorID\":\"81114\",\"id\":0},{\"DoctorID\":\"89154\",\"id\":0},{\"DoctorID\":\"36345\",\"id\":0},{\"DoctorID\":\"101544\",\"id\":0},{\"DoctorID\":\"179906\",\"id\":0},{\"DoctorID\":\"74680\",\"id\":0},{\"DoctorID\":\"159644\",\"id\":0},{\"DoctorID\":\"150188\",\"id\":0},{\"DoctorID\":\"621\",\"id\":0},{\"DoctorID\":\"2382\",\"id\":0},{\"DoctorID\":\"89158\",\"id\":0},{\"DoctorID\":\"182599\",\"id\":0},{\"DoctorID\":\"65363\",\"id\":0},{\"DoctorID\":\"98376\",\"id\":0},{\"DoctorID\":\"182597\",\"id\":0},{\"DoctorID\":\"36275\",\"id\":0},{\"DoctorID\":\"100193\",\"id\":0},{\"DoctorID\":\"184228\",\"id\":0},{\"DoctorID\":\"88172\",\"id\":0}],\"SetTime\":\"08:30\"},{\"DetailSL\":\"e17371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0}],\"SetTime\":\"14:30\"}]},{\"DayNumber\":\"18\",\"DetailList\":[{\"DetailSL\":\"m18371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"159888\",\"id\":0},{\"DoctorID\":\"74680\",\"id\":0},{\"DoctorID\":\"182597\",\"id\":0},{\"DoctorID\":\"2386\",\"id\":0},{\"DoctorID\":\"184228\",\"id\":0},{\"DoctorID\":\"98376\",\"id\":0},{\"DoctorID\":\"101544\",\"id\":0},{\"DoctorID\":\"2382\",\"id\":0},{\"DoctorID\":\"179906\",\"id\":0},{\"DoctorID\":\"81114\",\"id\":0},{\"DoctorID\":\"182599\",\"id\":0},{\"DoctorID\":\"89154\",\"id\":0},{\"DoctorID\":\"36275\",\"id\":0},{\"DoctorID\":\"106198\",\"id\":0},{\"DoctorID\":\"137872\",\"id\":0},{\"DoctorID\":\"159644\",\"id\":0},{\"DoctorID\":\"150188\",\"id\":0},{\"DoctorID\":\"65363\",\"id\":0},{\"DoctorID\":\"621\",\"id\":0},{\"DoctorID\":\"65364\",\"id\":0},{\"DoctorID\":\"2417\",\"id\":0},{\"DoctorID\":\"88172\",\"id\":0},{\"DoctorID\":\"179908\",\"id\":0},{\"DoctorID\":\"36345\",\"id\":0}],\"SetTime\":\"08:30\"},{\"DetailSL\":\"e18371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0}],\"SetTime\":\"15:00\"}]},{\"DayNumber\":\"19\",\"DetailList\":[{\"DetailSL\":\"m19371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"79754\",\"id\":0},{\"DoctorID\":\"2382\",\"id\":0},{\"DoctorID\":\"2386\",\"id\":0},{\"DoctorID\":\"137872\",\"id\":0},{\"DoctorID\":\"182599\",\"id\":0},{\"DoctorID\":\"2417\",\"id\":0},{\"DoctorID\":\"88172\",\"id\":0},{\"DoctorID\":\"89158\",\"id\":0},{\"DoctorID\":\"98376\",\"id\":0},{\"DoctorID\":\"81114\",\"id\":0},{\"DoctorID\":\"89154\",\"id\":0},{\"DoctorID\":\"184228\",\"id\":0},{\"DoctorID\":\"150188\",\"id\":0},{\"DoctorID\":\"179911\",\"id\":0},{\"DoctorID\":\"65364\",\"id\":0},{\"DoctorID\":\"101544\",\"id\":0},{\"DoctorID\":\"182597\",\"id\":0},{\"DoctorID\":\"74680\",\"id\":0},{\"DoctorID\":\"159644\",\"id\":0},{\"DoctorID\":\"36345\",\"id\":0},{\"DoctorID\":\"46165\",\"id\":0},{\"DoctorID\":\"179906\",\"id\":0},{\"DoctorID\":\"621\",\"id\":0},{\"DoctorID\":\"106198\",\"id\":0},{\"DoctorID\":\"100193\",\"id\":0},{\"DoctorID\":\"65363\",\"id\":0},{\"DoctorID\":\"159888\",\"id\":0},{\"DoctorID\":\"179908\",\"id\":0},{\"DoctorID\":\"36275\",\"id\":0}],\"SetTime\":\"08:30\"},{\"DetailSL\":\"e19371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0},{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0}],\"SetTime\":\"15:30\"}]},{\"DayNumber\":\"01\",\"DetailList\":[{\"DetailSL\":\"m01371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"137844\",\"id\":0},{\"DoctorID\":\"2393\",\"id\":0},{\"DoctorID\":\"2395\",\"id\":0},{\"DoctorID\":\"98360\",\"id\":0},{\"DoctorID\":\"105402\",\"id\":0},{\"DoctorID\":\"2394\",\"id\":0},{\"DoctorID\":\"109\",\"id\":0}],\"SetTime\":\"08:30\"},{\"DetailSL\":\"e01371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0}],\"SetTime\":\"15:30\"}]},{\"DayNumber\":\"02\",\"DetailList\":[{\"DetailSL\":\"m02371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"30176\",\"id\":0},{\"DoctorID\":\"137897\",\"id\":0},{\"DoctorID\":\"2417\",\"id\":0},{\"DoctorID\":\"137431\",\"id\":0},{\"DoctorID\":\"2424\",\"id\":0},{\"DoctorID\":\"65364\",\"id\":0},{\"DoctorID\":\"150188\",\"id\":0},{\"DoctorID\":\"106198\",\"id\":0},{\"DoctorID\":\"2386\",\"id\":0},{\"DoctorID\":\"185720\",\"id\":0},{\"DoctorID\":\"179906\",\"id\":0},{\"DoctorID\":\"159644\",\"id\":0},{\"DoctorID\":\"178437\",\"id\":0},{\"DoctorID\":\"159888\",\"id\":0},{\"DoctorID\":\"179908\",\"id\":0},{\"DoctorID\":\"621\",\"id\":0},{\"DoctorID\":\"182597\",\"id\":0},{\"DoctorID\":\"137910\",\"id\":0},{\"DoctorID\":\"65363\",\"id\":0},{\"DoctorID\":\"74680\",\"id\":0},{\"DoctorID\":\"2382\",\"id\":0},{\"DoctorID\":\"36275\",\"id\":0},{\"DoctorID\":\"2304\",\"id\":0},{\"DoctorID\":\"137909\",\"id\":0},{\"DoctorID\":\"88172\",\"id\":0},{\"DoctorID\":\"137871\",\"id\":0},{\"DoctorID\":\"137872\",\"id\":0},{\"DoctorID\":\"89154\",\"id\":0},{\"DoctorID\":\"36345\",\"id\":0},{\"DoctorID\":\"81114\",\"id\":0},{\"DoctorID\":\"182599\",\"id\":0},{\"DoctorID\":\"184228\",\"id\":0},{\"DoctorID\":\"98376\",\"id\":0},{\"DoctorID\":\"101544\",\"id\":0}],\"SetTime\":\"08:30\"},{\"DetailSL\":\"e02371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0}],\"SetTime\":\"15:30\"}]},{\"DayNumber\":\"03\",\"DetailList\":[{\"DetailSL\":\"m03371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"89154\",\"id\":0},{\"DoctorID\":\"184228\",\"id\":0},{\"DoctorID\":\"101544\",\"id\":0},{\"DoctorID\":\"98376\",\"id\":0},{\"DoctorID\":\"88172\",\"id\":0},{\"DoctorID\":\"159644\",\"id\":0},{\"DoctorID\":\"150188\",\"id\":0},{\"DoctorID\":\"2382\",\"id\":0},{\"DoctorID\":\"182597\",\"id\":0},{\"DoctorID\":\"179911\",\"id\":0},{\"DoctorID\":\"46165\",\"id\":0},{\"DoctorID\":\"179906\",\"id\":0},{\"DoctorID\":\"65364\",\"id\":0},{\"DoctorID\":\"2417\",\"id\":0},{\"DoctorID\":\"36275\",\"id\":0},{\"DoctorID\":\"74680\",\"id\":0},{\"DoctorID\":\"137872\",\"id\":0},{\"DoctorID\":\"179908\",\"id\":0},{\"DoctorID\":\"2386\",\"id\":0},{\"DoctorID\":\"79754\",\"id\":0},{\"DoctorID\":\"89158\",\"id\":0},{\"DoctorID\":\"36345\",\"id\":0},{\"DoctorID\":\"106198\",\"id\":0},{\"DoctorID\":\"65363\",\"id\":0},{\"DoctorID\":\"159888\",\"id\":0},{\"DoctorID\":\"182599\",\"id\":0},{\"DoctorID\":\"621\",\"id\":0},{\"DoctorID\":\"81114\",\"id\":0},{\"DoctorID\":\"100193\",\"id\":0}],\"SetTime\":\"08:30\"},{\"DetailSL\":\"e03371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0}],\"SetTime\":\"14:30\"}]},{\"DayNumber\":\"04\",\"DetailList\":[{\"DetailSL\":\"m04371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"180725\",\"id\":0},{\"DoctorID\":\"137481\",\"id\":0},{\"DoctorID\":\"137451\",\"id\":0},{\"DoctorID\":\"178429\",\"id\":0},{\"DoctorID\":\"180731\",\"id\":0},{\"DoctorID\":\"65368\",\"id\":0},{\"DoctorID\":\"167096\",\"id\":0},{\"DoctorID\":\"185719\",\"id\":0},{\"DoctorID\":\"180736\",\"id\":0},{\"DoctorID\":\"180726\",\"id\":0},{\"DoctorID\":\"170253\",\"id\":0},{\"DoctorID\":\"180735\",\"id\":0},{\"DoctorID\":\"132207\",\"id\":0},{\"DoctorID\":\"95060\",\"id\":0},{\"DoctorID\":\"42038\",\"id\":0},{\"DoctorID\":\"123021\",\"id\":0},{\"DoctorID\":\"137452\",\"id\":0},{\"DoctorID\":\"137443\",\"id\":0}],\"SetTime\":\"09:30\"},{\"DetailSL\":\"e04371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"150194\",\"id\":0},{\"DoctorID\":\"179909\",\"id\":0},{\"DoctorID\":\"2392\",\"id\":0},{\"DoctorID\":\"737\",\"id\":0},{\"DoctorID\":\"87287\",\"id\":0},{\"DoctorID\":\"173936\",\"id\":0},{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"2377\",\"id\":0},{\"DoctorID\":\"159632\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"2379\",\"id\":0},{\"DoctorID\":\"165518\",\"id\":0},{\"DoctorID\":\"90204\",\"id\":0},{\"DoctorID\":\"173946\",\"id\":0},{\"DoctorID\":\"76946\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"2423\",\"id\":0},{\"DoctorID\":\"179907\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"101110\",\"id\":0},{\"DoctorID\":\"38\",\"id\":0},{\"DoctorID\":\"101112\",\"id\":0},{\"DoctorID\":\"36289\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0},{\"DoctorID\":\"2376\",\"id\":0}],\"SetTime\":\"15:00\"}]},{\"DayNumber\":\"05\",\"DetailList\":[{\"DetailSL\":\"m05371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"137885\",\"id\":0},{\"DoctorID\":\"65364\",\"id\":0},{\"DoctorID\":\"74680\",\"id\":0},{\"DoctorID\":\"98367\",\"id\":0},{\"DoctorID\":\"65363\",\"id\":0},{\"DoctorID\":\"159888\",\"id\":0},{\"DoctorID\":\"2417\",\"id\":0},{\"DoctorID\":\"159644\",\"id\":0},{\"DoctorID\":\"81114\",\"id\":0},{\"DoctorID\":\"182597\",\"id\":0},{\"DoctorID\":\"106198\",\"id\":0},{\"DoctorID\":\"101544\",\"id\":0},{\"DoctorID\":\"2386\",\"id\":0},{\"DoctorID\":\"36275\",\"id\":0},{\"DoctorID\":\"179906\",\"id\":0},{\"DoctorID\":\"98376\",\"id\":0},{\"DoctorID\":\"150188\",\"id\":0},{\"DoctorID\":\"621\",\"id\":0},{\"DoctorID\":\"137872\",\"id\":0},{\"DoctorID\":\"2382\",\"id\":0},{\"DoctorID\":\"137894\",\"id\":0},{\"DoctorID\":\"184228\",\"id\":0},{\"DoctorID\":\"137886\",\"id\":0},{\"DoctorID\":\"182599\",\"id\":0},{\"DoctorID\":\"89154\",\"id\":0},{\"DoctorID\":\"88172\",\"id\":0},{\"DoctorID\":\"179908\",\"id\":0},{\"DoctorID\":\"36345\",\"id\":0}],\"SetTime\":\"09:00\"},{\"DetailSL\":\"e05371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0},{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0}],\"SetTime\":\"15:30\"}]},{\"DayNumber\":\"06\",\"DetailList\":[{\"DetailSL\":\"m06371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"95060\",\"id\":0},{\"DoctorID\":\"180735\",\"id\":0},{\"DoctorID\":\"132207\",\"id\":0},{\"DoctorID\":\"137481\",\"id\":0},{\"DoctorID\":\"123021\",\"id\":0},{\"DoctorID\":\"170253\",\"id\":0},{\"DoctorID\":\"137451\",\"id\":0},{\"DoctorID\":\"137443\",\"id\":0},{\"DoctorID\":\"167096\",\"id\":0},{\"DoctorID\":\"180726\",\"id\":0},{\"DoctorID\":\"178429\",\"id\":0},{\"DoctorID\":\"137452\",\"id\":0},{\"DoctorID\":\"180736\",\"id\":0},{\"DoctorID\":\"180725\",\"id\":0},{\"DoctorID\":\"185719\",\"id\":0},{\"DoctorID\":\"42038\",\"id\":0},{\"DoctorID\":\"65368\",\"id\":0},{\"DoctorID\":\"180731\",\"id\":0}],\"SetTime\":\"09:30\"},{\"DetailSL\":\"e06371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"38\",\"id\":0},{\"DoctorID\":\"76946\",\"id\":0},{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0},{\"DoctorID\":\"2423\",\"id\":0},{\"DoctorID\":\"150194\",\"id\":0},{\"DoctorID\":\"36289\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"173946\",\"id\":0},{\"DoctorID\":\"2379\",\"id\":0},{\"DoctorID\":\"159632\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"101110\",\"id\":0},{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"2377\",\"id\":0},{\"DoctorID\":\"165518\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"179909\",\"id\":0},{\"DoctorID\":\"2376\",\"id\":0},{\"DoctorID\":\"179907\",\"id\":0},{\"DoctorID\":\"173936\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"90204\",\"id\":0},{\"DoctorID\":\"737\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"2392\",\"id\":0},{\"DoctorID\":\"87287\",\"id\":0},{\"DoctorID\":\"101112\",\"id\":0}],\"SetTime\":\"15:00\"}]},{\"DayNumber\":\"07\",\"DetailList\":[{\"DetailSL\":\"m07371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"137851\",\"id\":0},{\"DoctorID\":\"98366\",\"id\":0},{\"DoctorID\":\"182598\",\"id\":0},{\"DoctorID\":\"98365\",\"id\":0},{\"DoctorID\":\"173938\",\"id\":0},{\"DoctorID\":\"159638\",\"id\":0},{\"DoctorID\":\"65365\",\"id\":0},{\"DoctorID\":\"170221\",\"id\":0},{\"DoctorID\":\"137877\",\"id\":0},{\"DoctorID\":\"137847\",\"id\":0},{\"DoctorID\":\"36282\",\"id\":0},{\"DoctorID\":\"137900\",\"id\":0},{\"DoctorID\":\"1986\",\"id\":0}],\"SetTime\":\"09:00\"},{\"DetailSL\":\"e07371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"137875\",\"id\":0}],\"SetTime\":\"15:00\"}]},{\"DayNumber\":\"08\",\"DetailList\":[{\"DetailSL\":\"m08371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"123021\",\"id\":0},{\"DoctorID\":\"180731\",\"id\":0},{\"DoctorID\":\"180726\",\"id\":0},{\"DoctorID\":\"137481\",\"id\":0},{\"DoctorID\":\"95060\",\"id\":0},{\"DoctorID\":\"180736\",\"id\":0},{\"DoctorID\":\"65368\",\"id\":0},{\"DoctorID\":\"132207\",\"id\":0},{\"DoctorID\":\"178429\",\"id\":0},{\"DoctorID\":\"137451\",\"id\":0},{\"DoctorID\":\"137452\",\"id\":0},{\"DoctorID\":\"185719\",\"id\":0},{\"DoctorID\":\"180735\",\"id\":0},{\"DoctorID\":\"167096\",\"id\":0},{\"DoctorID\":\"170253\",\"id\":0},{\"DoctorID\":\"42038\",\"id\":0},{\"DoctorID\":\"180725\",\"id\":0},{\"DoctorID\":\"137443\",\"id\":0}],\"SetTime\":\"09:30\"},{\"DetailSL\":\"e08371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"737\",\"id\":0},{\"DoctorID\":\"76946\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"101110\",\"id\":0},{\"DoctorID\":\"150194\",\"id\":0},{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"179909\",\"id\":0},{\"DoctorID\":\"36289\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"173946\",\"id\":0},{\"DoctorID\":\"159632\",\"id\":0},{\"DoctorID\":\"90204\",\"id\":0},{\"DoctorID\":\"2392\",\"id\":0},{\"DoctorID\":\"179907\",\"id\":0},{\"DoctorID\":\"101112\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"2377\",\"id\":0},{\"DoctorID\":\"165518\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0},{\"DoctorID\":\"87287\",\"id\":0},{\"DoctorID\":\"173936\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0},{\"DoctorID\":\"2379\",\"id\":0},{\"DoctorID\":\"2423\",\"id\":0},{\"DoctorID\":\"2376\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"38\",\"id\":0}],\"SetTime\":\"15:00\"}]},{\"DayNumber\":\"09\",\"DetailList\":[{\"DetailSL\":\"m09371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"179906\",\"id\":0},{\"DoctorID\":\"74680\",\"id\":0},{\"DoctorID\":\"621\",\"id\":0},{\"DoctorID\":\"36345\",\"id\":0},{\"DoctorID\":\"2382\",\"id\":0},{\"DoctorID\":\"2386\",\"id\":0},{\"DoctorID\":\"179911\",\"id\":0},{\"DoctorID\":\"100193\",\"id\":0},{\"DoctorID\":\"89158\",\"id\":0},{\"DoctorID\":\"98376\",\"id\":0},{\"DoctorID\":\"150188\",\"id\":0},{\"DoctorID\":\"81114\",\"id\":0},{\"DoctorID\":\"182597\",\"id\":0},{\"DoctorID\":\"46165\",\"id\":0},{\"DoctorID\":\"106198\",\"id\":0},{\"DoctorID\":\"79754\",\"id\":0},{\"DoctorID\":\"159888\",\"id\":0},{\"DoctorID\":\"2417\",\"id\":0},{\"DoctorID\":\"101544\",\"id\":0},{\"DoctorID\":\"65364\",\"id\":0},{\"DoctorID\":\"182599\",\"id\":0},{\"DoctorID\":\"184228\",\"id\":0},{\"DoctorID\":\"179908\",\"id\":0},{\"DoctorID\":\"89154\",\"id\":0},{\"DoctorID\":\"36275\",\"id\":0},{\"DoctorID\":\"137872\",\"id\":0},{\"DoctorID\":\"65363\",\"id\":0},{\"DoctorID\":\"88172\",\"id\":0},{\"DoctorID\":\"159644\",\"id\":0}],\"SetTime\":\"08:30\"},{\"DetailSL\":\"e09371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0}],\"SetTime\":\"15:30\"}]},{\"DayNumber\":\"20\",\"DetailList\":[{\"DetailSL\":\"m20371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"106229\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"853\",\"id\":0},{\"DoctorID\":\"55770\",\"id\":0},{\"DoctorID\":\"74654\",\"id\":0},{\"DoctorID\":\"137560\",\"id\":0},{\"DoctorID\":\"21761\",\"id\":0},{\"DoctorID\":\"30257\",\"id\":0}],\"SetTime\":\"08:30\"},{\"DetailSL\":\"e20371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0},{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0}],\"SetTime\":\"14:30\"}]},{\"DayNumber\":\"21\",\"DetailList\":[{\"DetailSL\":\"m21371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"137844\",\"id\":0},{\"DoctorID\":\"2393\",\"id\":0},{\"DoctorID\":\"105402\",\"id\":0},{\"DoctorID\":\"2394\",\"id\":0},{\"DoctorID\":\"2395\",\"id\":0},{\"DoctorID\":\"98360\",\"id\":0},{\"DoctorID\":\"109\",\"id\":0}],\"SetTime\":\"08:30\"},{\"DetailSL\":\"e21371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0}],\"SetTime\":\"15:30\"}]},{\"DayNumber\":\"22\",\"DetailList\":[{\"DetailSL\":\"m22371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"179911\",\"id\":0},{\"DoctorID\":\"89158\",\"id\":0},{\"DoctorID\":\"137872\",\"id\":0},{\"DoctorID\":\"159644\",\"id\":0},{\"DoctorID\":\"621\",\"id\":0},{\"DoctorID\":\"184228\",\"id\":0},{\"DoctorID\":\"81114\",\"id\":0},{\"DoctorID\":\"2386\",\"id\":0},{\"DoctorID\":\"106198\",\"id\":0},{\"DoctorID\":\"36275\",\"id\":0},{\"DoctorID\":\"46165\",\"id\":0},{\"DoctorID\":\"179906\",\"id\":0},{\"DoctorID\":\"98376\",\"id\":0},{\"DoctorID\":\"2382\",\"id\":0},{\"DoctorID\":\"100193\",\"id\":0},{\"DoctorID\":\"65363\",\"id\":0},{\"DoctorID\":\"159888\",\"id\":0},{\"DoctorID\":\"89154\",\"id\":0},{\"DoctorID\":\"2417\",\"id\":0},{\"DoctorID\":\"79754\",\"id\":0},{\"DoctorID\":\"88172\",\"id\":0},{\"DoctorID\":\"179908\",\"id\":0},{\"DoctorID\":\"36345\",\"id\":0},{\"DoctorID\":\"65364\",\"id\":0},{\"DoctorID\":\"182599\",\"id\":0},{\"DoctorID\":\"74680\",\"id\":0},{\"DoctorID\":\"101544\",\"id\":0},{\"DoctorID\":\"150188\",\"id\":0},{\"DoctorID\":\"182597\",\"id\":0}],\"SetTime\":\"08:00\"},{\"DetailSL\":\"e22371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"737\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"2377\",\"id\":0},{\"DoctorID\":\"179909\",\"id\":0},{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"2392\",\"id\":0},{\"DoctorID\":\"179907\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0},{\"DoctorID\":\"38\",\"id\":0},{\"DoctorID\":\"150194\",\"id\":0},{\"DoctorID\":\"101112\",\"id\":0},{\"DoctorID\":\"76946\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0},{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"2423\",\"id\":0},{\"DoctorID\":\"159632\",\"id\":0},{\"DoctorID\":\"90204\",\"id\":0},{\"DoctorID\":\"36289\",\"id\":0},{\"DoctorID\":\"87287\",\"id\":0},{\"DoctorID\":\"2379\",\"id\":0},{\"DoctorID\":\"165518\",\"id\":0},{\"DoctorID\":\"101110\",\"id\":0},{\"DoctorID\":\"2376\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"173946\",\"id\":0},{\"DoctorID\":\"173936\",\"id\":0}],\"SetTime\":\"15:30\"}]},{\"DayNumber\":\"23\",\"DetailList\":[{\"DetailSL\":\"m23371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"46165\",\"id\":0},{\"DoctorID\":\"179911\",\"id\":0},{\"DoctorID\":\"159888\",\"id\":0},{\"DoctorID\":\"36345\",\"id\":0},{\"DoctorID\":\"81114\",\"id\":0},{\"DoctorID\":\"89158\",\"id\":0},{\"DoctorID\":\"159644\",\"id\":0},{\"DoctorID\":\"182597\",\"id\":0},{\"DoctorID\":\"79754\",\"id\":0},{\"DoctorID\":\"89154\",\"id\":0},{\"DoctorID\":\"2382\",\"id\":0},{\"DoctorID\":\"2386\",\"id\":0},{\"DoctorID\":\"100193\",\"id\":0},{\"DoctorID\":\"621\",\"id\":0},{\"DoctorID\":\"137872\",\"id\":0},{\"DoctorID\":\"182599\",\"id\":0},{\"DoctorID\":\"88172\",\"id\":0},{\"DoctorID\":\"179908\",\"id\":0},{\"DoctorID\":\"101544\",\"id\":0},{\"DoctorID\":\"179906\",\"id\":0},{\"DoctorID\":\"98376\",\"id\":0},{\"DoctorID\":\"74680\",\"id\":0},{\"DoctorID\":\"150188\",\"id\":0},{\"DoctorID\":\"36275\",\"id\":0},{\"DoctorID\":\"65363\",\"id\":0},{\"DoctorID\":\"65364\",\"id\":0},{\"DoctorID\":\"184228\",\"id\":0},{\"DoctorID\":\"2417\",\"id\":0},{\"DoctorID\":\"106198\",\"id\":0}],\"SetTime\":\"08:30\"},{\"DetailSL\":\"e23371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"2379\",\"id\":0},{\"DoctorID\":\"101112\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"2377\",\"id\":0},{\"DoctorID\":\"159632\",\"id\":0},{\"DoctorID\":\"2392\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"173946\",\"id\":0},{\"DoctorID\":\"2423\",\"id\":0},{\"DoctorID\":\"173936\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"179907\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"101110\",\"id\":0},{\"DoctorID\":\"38\",\"id\":0},{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"150194\",\"id\":0},{\"DoctorID\":\"179909\",\"id\":0},{\"DoctorID\":\"76946\",\"id\":0},{\"DoctorID\":\"737\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0},{\"DoctorID\":\"87287\",\"id\":0},{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"165518\",\"id\":0},{\"DoctorID\":\"90204\",\"id\":0},{\"DoctorID\":\"2376\",\"id\":0},{\"DoctorID\":\"36289\",\"id\":0}],\"SetTime\":\"15:30\"}]},{\"DayNumber\":\"24\",\"DetailList\":[{\"DetailSL\":\"m24371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"2394\",\"id\":0},{\"DoctorID\":\"98360\",\"id\":0},{\"DoctorID\":\"2395\",\"id\":0},{\"DoctorID\":\"137844\",\"id\":0},{\"DoctorID\":\"105402\",\"id\":0},{\"DoctorID\":\"109\",\"id\":0},{\"DoctorID\":\"2393\",\"id\":0}],\"SetTime\":\"08:30\"},{\"DetailSL\":\"e24371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0},{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0}],\"SetTime\":\"15:00\"}]},{\"DayNumber\":\"25\",\"DetailList\":[{\"DetailSL\":\"m25371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"65363\",\"id\":0},{\"DoctorID\":\"137872\",\"id\":0},{\"DoctorID\":\"159888\",\"id\":0},{\"DoctorID\":\"98376\",\"id\":0},{\"DoctorID\":\"2417\",\"id\":0},{\"DoctorID\":\"74680\",\"id\":0},{\"DoctorID\":\"101544\",\"id\":0},{\"DoctorID\":\"179906\",\"id\":0},{\"DoctorID\":\"182599\",\"id\":0},{\"DoctorID\":\"88172\",\"id\":0},{\"DoctorID\":\"81114\",\"id\":0},{\"DoctorID\":\"182597\",\"id\":0},{\"DoctorID\":\"184228\",\"id\":0},{\"DoctorID\":\"36345\",\"id\":0},{\"DoctorID\":\"621\",\"id\":0},{\"DoctorID\":\"65364\",\"id\":0},{\"DoctorID\":\"89154\",\"id\":0},{\"DoctorID\":\"179908\",\"id\":0},{\"DoctorID\":\"150188\",\"id\":0},{\"DoctorID\":\"2386\",\"id\":0},{\"DoctorID\":\"159644\",\"id\":0},{\"DoctorID\":\"106198\",\"id\":0},{\"DoctorID\":\"2382\",\"id\":0},{\"DoctorID\":\"36275\",\"id\":0}],\"SetTime\":\"08:30\"},{\"DetailSL\":\"e25371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0}],\"SetTime\":\"14:30\"}]},{\"DayNumber\":\"27\",\"DetailList\":[{\"DetailSL\":\"e27371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0}],\"SetTime\":\"14:30\"},{\"DetailSL\":\"m27371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"2393\",\"id\":0},{\"DoctorID\":\"109\",\"id\":0},{\"DoctorID\":\"2395\",\"id\":0},{\"DoctorID\":\"98360\",\"id\":0},{\"DoctorID\":\"137844\",\"id\":0},{\"DoctorID\":\"2394\",\"id\":0},{\"DoctorID\":\"105402\",\"id\":0}],\"SetTime\":\"08:30\"}]},{\"DayNumber\":\"28\",\"DetailList\":[{\"DetailSL\":\"m28371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"95060\",\"id\":0},{\"DoctorID\":\"137481\",\"id\":0},{\"DoctorID\":\"167096\",\"id\":0},{\"DoctorID\":\"137443\",\"id\":0},{\"DoctorID\":\"170253\",\"id\":0},{\"DoctorID\":\"42038\",\"id\":0},{\"DoctorID\":\"180736\",\"id\":0},{\"DoctorID\":\"123021\",\"id\":0},{\"DoctorID\":\"180726\",\"id\":0},{\"DoctorID\":\"137452\",\"id\":0},{\"DoctorID\":\"132207\",\"id\":0},{\"DoctorID\":\"185719\",\"id\":0},{\"DoctorID\":\"65368\",\"id\":0},{\"DoctorID\":\"137451\",\"id\":0},{\"DoctorID\":\"180735\",\"id\":0},{\"DoctorID\":\"180731\",\"id\":0},{\"DoctorID\":\"180725\",\"id\":0},{\"DoctorID\":\"178429\",\"id\":0}],\"SetTime\":\"09:00\"},{\"DetailSL\":\"e28371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0}],\"SetTime\":\"14:30\"}]},{\"DayNumber\":\"29\",\"DetailList\":[{\"DetailSL\":\"m29371\",\"ShiftName\":\"m\",\"SubDetailList\":[{\"DoctorID\":\"182599\",\"id\":0},{\"DoctorID\":\"98376\",\"id\":0},{\"DoctorID\":\"36345\",\"id\":0},{\"DoctorID\":\"79754\",\"id\":0},{\"DoctorID\":\"89158\",\"id\":0},{\"DoctorID\":\"179906\",\"id\":0},{\"DoctorID\":\"88172\",\"id\":0},{\"DoctorID\":\"179911\",\"id\":0},{\"DoctorID\":\"46165\",\"id\":0},{\"DoctorID\":\"74680\",\"id\":0},{\"DoctorID\":\"159644\",\"id\":0},{\"DoctorID\":\"2382\",\"id\":0},{\"DoctorID\":\"101544\",\"id\":0},{\"DoctorID\":\"36275\",\"id\":0},{\"DoctorID\":\"89154\",\"id\":0},{\"DoctorID\":\"179908\",\"id\":0},{\"DoctorID\":\"81114\",\"id\":0},{\"DoctorID\":\"106198\",\"id\":0},{\"DoctorID\":\"137872\",\"id\":0},{\"DoctorID\":\"65364\",\"id\":0},{\"DoctorID\":\"150188\",\"id\":0},{\"DoctorID\":\"621\",\"id\":0},{\"DoctorID\":\"100193\",\"id\":0},{\"DoctorID\":\"159888\",\"id\":0},{\"DoctorID\":\"184228\",\"id\":0},{\"DoctorID\":\"2417\",\"id\":0},{\"DoctorID\":\"182597\",\"id\":0},{\"DoctorID\":\"65363\",\"id\":0},{\"DoctorID\":\"2386\",\"id\":0}],\"SetTime\":\"08:30\"},{\"DetailSL\":\"e29371\",\"ShiftName\":\"e\",\"SubDetailList\":[{\"DoctorID\":\"182218\",\"id\":0},{\"DoctorID\":\"36341\",\"id\":0},{\"DoctorID\":\"46838\",\"id\":0},{\"DoctorID\":\"134878\",\"id\":0},{\"DoctorID\":\"2376\",\"id\":0},{\"DoctorID\":\"737\",\"id\":0},{\"DoctorID\":\"179907\",\"id\":0},{\"DoctorID\":\"51013\",\"id\":0},{\"DoctorID\":\"109685\",\"id\":0},{\"DoctorID\":\"56677\",\"id\":0},{\"DoctorID\":\"45476\",\"id\":0},{\"DoctorID\":\"101112\",\"id\":0},{\"DoctorID\":\"173936\",\"id\":0},{\"DoctorID\":\"36715\",\"id\":0},{\"DoctorID\":\"63255\",\"id\":0},{\"DoctorID\":\"104784\",\"id\":0},{\"DoctorID\":\"137430\",\"id\":0},{\"DoctorID\":\"101110\",\"id\":0},{\"DoctorID\":\"159632\",\"id\":0},{\"DoctorID\":\"36289\",\"id\":0},{\"DoctorID\":\"59501\",\"id\":0},{\"DoctorID\":\"165518\",\"id\":0},{\"DoctorID\":\"38\",\"id\":0},{\"DoctorID\":\"150194\",\"id\":0},{\"DoctorID\":\"87287\",\"id\":0},{\"DoctorID\":\"76946\",\"id\":0},{\"DoctorID\":\"82\",\"id\":0},{\"DoctorID\":\"173946\",\"id\":0},{\"DoctorID\":\"2377\",\"id\":0},{\"DoctorID\":\"90204\",\"id\":0},{\"DoctorID\":\"36278\",\"id\":0},{\"DoctorID\":\"2619\",\"id\":0},{\"DoctorID\":\"2379\",\"id\":0},{\"DoctorID\":\"2423\",\"id\":0},{\"DoctorID\":\"2392\",\"id\":0},{\"DoctorID\":\"661\",\"id\":0},{\"DoctorID\":\"179909\",\"id\":0},{\"DoctorID\":\"1085\",\"id\":0},{\"DoctorID\":\"75396\",\"id\":0},{\"DoctorID\":\"46132\",\"id\":0},{\"DoctorID\":\"2025\",\"id\":0},{\"DoctorID\":\"115699\",\"id\":0}],\"SetTime\":\"15:30\"}]}]}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://edcr.squaregroup.com:444/DCRService.svc/Json/PostDVRBody",
+					"protocol": "https",
+					"host": [
+						"edcr",
+						"squaregroup",
+						"com"
+					],
+					"port": "444",
+					"path": [
+						"DCRService.svc",
+						"Json",
+						"PostDVRBody"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getInstitute",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://172.16.128.118:131/DCRService.svc/Json/GetInstitution?UserID=L80R1D&MonthYear=10-2019",
+					"protocol": "http",
+					"host": [
+						"172",
+						"16",
+						"128",
+						"118"
+					],
+					"port": "131",
+					"path": [
+						"DCRService.svc",
+						"Json",
+						"GetInstitution"
+					],
+					"query": [
+						{
+							"key": "UserID",
+							"value": "L80R1D"
+						},
+						{
+							"key": "MonthYear",
+							"value": "10-2019"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "doctorList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://172.16.128.118:131/DCRService.svc/Json/DoctorList?UserID=L80R1D&MonthYear=10-2019",
+					"protocol": "http",
+					"host": [
+						"172",
+						"16",
+						"128",
+						"118"
+					],
+					"port": "131",
+					"path": [
+						"DCRService.svc",
+						"Json",
+						"DoctorList"
+					],
+					"query": [
+						{
+							"key": "UserID",
+							"value": "L80R1D"
+						},
+						{
+							"key": "MonthYear",
+							"value": "10-2019"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getDocInsMap",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://172.16.128.118:131/DCRService.svc/Json/DoctorInstitutionMappingList?UserID=L80R1D&MonthYear=10-2019",
+					"protocol": "http",
+					"host": [
+						"172",
+						"16",
+						"128",
+						"118"
+					],
+					"port": "131",
+					"path": [
+						"DCRService.svc",
+						"Json",
+						"DoctorInstitutionMappingList"
+					],
+					"query": [
+						{
+							"key": "UserID",
+							"value": "L80R1D"
+						},
+						{
+							"key": "MonthYear",
+							"value": "10-2019"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "rowDoctor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://edcr.squaregroup.com:444/DCRService.svc/Json/DoctorListRaw?UserID=L78R1D&MonthYear=11-2019",
+					"protocol": "https",
+					"host": [
+						"edcr",
+						"squaregroup",
+						"com"
+					],
+					"port": "444",
+					"path": [
+						"DCRService.svc",
+						"Json",
+						"DoctorListRaw"
+					],
+					"query": [
+						{
+							"key": "UserID",
+							"value": "L78R1D"
+						},
+						{
+							"key": "MonthYear",
+							"value": "11-2019"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PlanVsExe",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://edcr.squaregroup.com:444/DCRService.svc/Json/ReportPlanVsExecution?UserID=L69R1D&MonthYear=11-2019",
+					"protocol": "https",
+					"host": [
+						"edcr",
+						"squaregroup",
+						"com"
+					],
+					"port": "444",
+					"path": [
+						"DCRService.svc",
+						"Json",
+						"ReportPlanVsExecution"
+					],
+					"query": [
+						{
+							"key": "UserID",
+							"value": "L69R1D"
+						},
+						{
+							"key": "MonthYear",
+							"value": "11-2019"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GETDCR",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://edcr.squaregroup.com:444/DCRService.svc/Json/GetMonthlyDCR?UserID=L69R1D&MonthYear=11-2019",
+					"protocol": "https",
+					"host": [
+						"edcr",
+						"squaregroup",
+						"com"
+					],
+					"port": "444",
+					"path": [
+						"DCRService.svc",
+						"Json",
+						"GetMonthlyDCR"
+					],
+					"query": [
+						{
+							"key": "UserID",
+							"value": "L69R1D"
+						},
+						{
+							"key": "MonthYear",
+							"value": "11-2019"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllDoctors",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://edcr.squaregroup.com:444/DCRService.svc/Json/GetDoctorList?UserID=M71R1D&MarketCode=M71",
+					"protocol": "https",
+					"host": [
+						"edcr",
+						"squaregroup",
+						"com"
+					],
+					"port": "444",
+					"path": [
+						"DCRService.svc",
+						"Json",
+						"GetDoctorList"
+					],
+					"query": [
+						{
+							"key": "UserID",
+							"value": "M71R1D"
+						},
+						{
+							"key": "MarketCode",
+							"value": "M71"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetTADA",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://edcr.squaregroup.com:444/DCRService.svc/Json/GetDAnTA?UserID=H60R2A",
+					"protocol": "https",
+					"host": [
+						"edcr",
+						"squaregroup",
+						"com"
+					],
+					"port": "444",
+					"path": [
+						"DCRService.svc",
+						"Json",
+						"GetDAnTA"
+					],
+					"query": [
+						{
+							"key": "UserID",
+							"value": "H60R2A"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllProduct",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://edcr.squaregroup.com:444/DCRService.svc/Json/GetInvItemsMonthly?UserID=M72R1D&MonthYear=01-2020",
+					"protocol": "https",
+					"host": [
+						"edcr",
+						"squaregroup",
+						"com"
+					],
+					"port": "444",
+					"path": [
+						"DCRService.svc",
+						"Json",
+						"GetInvItemsMonthly"
+					],
+					"query": [
+						{
+							"key": "UserID",
+							"value": "M72R1D"
+						},
+						{
+							"key": "MonthYear",
+							"value": "01-2020"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Notifications",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "key=AAAABZUovEY:APA91bG7zxEUIVxYt0t-wIXXJj2HLIm9o6czSYDW7NbQbLC3kkbJobN2zll98jbHhSQf4RnNgM_oDuZ7Cc9kvH-JAckMy9LzDxPDIuRgevscv6tWFbDJAx4SEffy1BT_jP8KeGaIeb3H ",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{ \"to\" : \"eMws9muDJ_E:APA91bHYLWByBKt_s6jc7VQSSbQHbENRKL6Qvmus5U4TWUCLOmTKI8fHlRWJCn5oNKJFXJDq5veYdq4jhACoqImuFtTyT7xjNQNchPuGzUU1dmkEf7Fp7ks9BVzw1I9ZEazR-rvgurt_\", \"collapse_key\" : \"type_a\", \"notification\" : { \"body\" : \"Body of Your Notification\", \"title\": \"Title of Your Notification\" }, \"data\" : { \"Tag\" : \"Body of Your Notification in Data\", \"Title\": \"Title of Your Notification in Title\", \"Detail\" : \"Details here\", \"Count\" : \"12\", \"Datetime\" : \"2020-01-28 10:12:23\" } }"
+				},
+				"url": {
+					"raw": "https://fcm.googleapis.com/fcm/send",
+					"protocol": "https",
+					"host": [
+						"fcm",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"fcm",
+						"send"
+					]
+				},
+				"description": "edc"
+			},
+			"response": []
+		},
+		{
+			"name": "POSTBill",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "UserID",
+							"value": "G99R2A",
+							"type": "text"
+						},
+						{
+							"key": "MPOCode",
+							"value": "11377",
+							"type": "text"
+						},
+						{
+							"key": "Year",
+							"value": "2020",
+							"type": "text"
+						},
+						{
+							"key": "MonthNumber",
+							"value": "07",
+							"type": "text"
+						},
+						{
+							"key": "DayNumber",
+							"value": "14",
+							"type": "text"
+						},
+						{
+							"key": "DA",
+							"value": "{\"Amount\":\"210\",\"AnSL\":\"20200714\",\"IsHoliday\":\"No\",\"AllowanceNature\":\"HQ\",\"EveningPlace\":\"NHN,WARI, TIPU SULTAN ROAD, WARI, NARINDA ROAD,WARI, FAST TRACK,DNMCH , TIPU SULTAN ROAD \",\"MorningPlace\":\"NHN,WARI, NHN FOOT CARE HOSPITAL, RANKIN STREET., RANKIN STREET,WARI, UPCH,BCC ROAD,WARI, NHN MORNING , NIBEDITA SHISHU HOSPITAL,HARE STREET , SKIGH,L-3 RANKIN STREET,WARI , SURGERY OUTDOOR,DNMCH , SURGERY INDOOR, DNMCH , UROLOGY, DNMCH OUTDOOR , EYE INDOOR, DNMCH , SURGERY INDOOR,DNMCH , EYE OUTDOOR,DNMCH \",\"MasterSL\":\"0\"}",
+							"type": "text"
+						},
+						{
+							"key": "TA",
+							"value": "{\"Distance\":\"1.0\",\"RegionCode\":\"G99\",\"Amount\":\"151\"}",
+							"type": "text"
+						},
+						{
+							"key": "TAOther",
+							"value": "{\"TAOther\":[]}",
+							"type": "text"
+						},
+						{
+							"key": "Other",
+							"value": "{\"Other\":[]}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://edcr.squaregroup.com:444/DCRService.svc/Json/PostBillBody",
+					"protocol": "https",
+					"host": [
+						"edcr",
+						"squaregroup",
+						"com"
+					],
+					"port": "444",
+					"path": [
+						"DCRService.svc",
+						"Json",
+						"PostBillBody"
+					]
+				},
+				"description": "MPO bill sending"
+			},
+			"response": []
+		},
+		{
+			"name": "postDoctorInfo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "JsonString",
+							"value": "{\"DetailList\":[{\"DoctorID\":\"192647\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"\"},{\"DoctorID\":\"133461\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"10  mile Bazar \"},{\"DoctorID\":\"159374\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Dangarhat bazar\"},{\"DoctorID\":\"192636\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"183180\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"kaharol UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"131047\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"kaharol bazar \"},{\"DoctorID\":\"192635\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"103689\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj bazar \",\"EveningLocation\":\"\"},{\"DoctorID\":\"159368\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Ziare Gat.Kansama\"},{\"DoctorID\":\"13762\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Bibi kanchon, Korimpur\",\"EveningLocation\":\"\"},{\"DoctorID\":\"87146\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Bibi kanchon, Korimpur\",\"EveningLocation\":\"\"},{\"DoctorID\":\"119149\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"kaharol UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"183183\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"157180\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Satabgonj Road. Birgonj \"},{\"DoctorID\":\"34523\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"11165\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj bazar \",\"EveningLocation\":\"\"},{\"DoctorID\":\"131117\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj bazar \",\"EveningLocation\":\"\"},{\"DoctorID\":\"159375\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Zolzoli Bazar \"},{\"DoctorID\":\"39587\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"131011\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Bolaya Bazar \"},{\"DoctorID\":\"131022\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"kaharol bazar \"},{\"DoctorID\":\"159364\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\" Golden Sonka bazar\"},{\"DoctorID\":\"126601\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"kaharol UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"87170\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Cinema hall road, Kaharol \"},{\"DoctorID\":\"126592\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"13639\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Kollani Bazar \"},{\"DoctorID\":\"159387\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Chowdhuri hat\"},{\"DoctorID\":\"13716\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Jarbari S\\/C\",\"EveningLocation\":\"\"},{\"DoctorID\":\"131078\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"28 mile\"},{\"DoctorID\":\"131085\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Jarbari Bazar \",\"EveningLocation\":\"\"},{\"DoctorID\":\"159372\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"192633\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"131065\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\" O Torola Bazar \"},{\"DoctorID\":\"131008\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Prem bazar \"},{\"DoctorID\":\"159382\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Motuni Bazar \",\"EveningLocation\":\"\"},{\"DoctorID\":\"131067\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Mohonpur S\\/C\",\"EveningLocation\":\"\"},{\"DoctorID\":\"131004\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"kaharol UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"109796\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj bazar \",\"EveningLocation\":\"\"},{\"DoctorID\":\"166259\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"159365\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Kobiraj Hat \"},{\"DoctorID\":\"179349\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"133321\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"39507\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"131006\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Bibi kanchon, Korimpur\",\"EveningLocation\":\"\"},{\"DoctorID\":\"183182\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"87138\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj bazar \",\"EveningLocation\":\"\"},{\"DoctorID\":\"159383\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Later hat\",\"EveningLocation\":\"\"},{\"DoctorID\":\"13698\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Mohuawa Bottly\"},{\"DoctorID\":\"131082\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Full Laterhat\"},{\"DoctorID\":\"87173\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"87176\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Kobiraj Hat \"},{\"DoctorID\":\"159386\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Kollani Bazar \"},{\"DoctorID\":\"39592\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Boiragi Bazar \"},{\"DoctorID\":\"192649\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"kaharol UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"131074\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Kobiraj Hat \"},{\"DoctorID\":\"44624\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"13610\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"13 mile\"},{\"DoctorID\":\"126606\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj bazar \",\"EveningLocation\":\"\"},{\"DoctorID\":\"192632\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"13722\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj bazar \",\"EveningLocation\":\"\"},{\"DoctorID\":\"133456\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Ramdubi More\"},{\"DoctorID\":\"87181\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Clab More, Kaharol s Sorno\"},{\"DoctorID\":\"131076\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Full Laterhat\"},{\"DoctorID\":\"131093\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Kobiraj Hat \"},{\"DoctorID\":\"192634\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"84590\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"10  mile Bazar \"},{\"DoctorID\":\"159369\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Shiprampur S\\/C\",\"EveningLocation\":\"\"},{\"DoctorID\":\"170114\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"159363\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"korimpur \",\"EveningLocation\":\"\"},{\"DoctorID\":\"156786\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"korimpur Bazar \"},{\"DoctorID\":\"84592\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"10  mile Bazar \"},{\"DoctorID\":\"126605\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"166256\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"159381\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Motuni Bazar \",\"EveningLocation\":\"\"},{\"DoctorID\":\"159385\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"25 mile\",\"EveningLocation\":\"\"},{\"DoctorID\":\"126619\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Modern Clinic \",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"159388\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Bolaya Bazar \"},{\"DoctorID\":\"87175\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"28 mile\",\"EveningLocation\":\"\"},{\"DoctorID\":\"178037\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Ramdubi Bazar \"},{\"DoctorID\":\"131306\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj bazar \",\"EveningLocation\":\"\"},{\"DoctorID\":\"13603\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Pain Birgonj Bazar s \"},{\"DoctorID\":\"39739\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"10  mile Bazar \"},{\"DoctorID\":\"178036\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Mahanpur bazar \",\"EveningLocation\":\"\"},{\"DoctorID\":\"90172\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"133458\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"10  mile Bazar \"},{\"DoctorID\":\"131015\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"13 mile\"},{\"DoctorID\":\"159370\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Mahanpur Sub center \",\"EveningLocation\":\"\"},{\"DoctorID\":\"131031\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Dangarhat bazar\"},{\"DoctorID\":\"119622\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"kaharol bazar \",\"EveningLocation\":\"\"},{\"DoctorID\":\"13770\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"kaharol bazar \"},{\"DoctorID\":\"166261\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"kaharol bazar \"},{\"DoctorID\":\"126594\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"192643\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"kaharol UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"170052\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj bazar \",\"EveningLocation\":\"\"},{\"DoctorID\":\"192644\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"117083\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"185953\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"87142\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj bazar \",\"EveningLocation\":\"\"},{\"DoctorID\":\"185952\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"12365\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"131018\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\" Golden Sonka bazar\"},{\"DoctorID\":\"13119\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"10  mile Bazar \"},{\"DoctorID\":\"131014\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"13 mile\"},{\"DoctorID\":\"151904\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"10  mile Bazar \"},{\"DoctorID\":\"131073\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Full Laterhat\"},{\"DoctorID\":\"13724\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"131052\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Golapgonj S\\/C\"},{\"DoctorID\":\"192645\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"kaharol UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"131017\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"12 mile Bazar\"},{\"DoctorID\":\"109807\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"kaharol bazar \"},{\"DoctorID\":\"87180\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"kaharol bazar \"},{\"DoctorID\":\"192646\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"kaharol UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"179350\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"36591\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"59492\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"131201\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"159390\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"159373\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Golapgonj Bazar \"},{\"DoctorID\":\"131059\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Buliya bazar \"},{\"DoctorID\":\"87172\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Kobiraj Hat \"},{\"DoctorID\":\"192641\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"126603\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"kaharol UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"159391\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj bazar \",\"EveningLocation\":\"\"},{\"DoctorID\":\"84537\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj bazar \",\"EveningLocation\":\"\"},{\"DoctorID\":\"67219\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"13614\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Motuni bazar \"},{\"DoctorID\":\"166262\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Cinema hall road, Kaharol \"},{\"DoctorID\":\"87174\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Golapgonj Bazar \"},{\"DoctorID\":\"13608\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Kobiraj hat\",\"EveningLocation\":\"\"},{\"DoctorID\":\"131028\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"28 mile\",\"EveningLocation\":\"\"},{\"DoctorID\":\"126608\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"kaharol bazar \"},{\"DoctorID\":\"192640\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"133459\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"10  mile Bazar \"},{\"DoctorID\":\"13607\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Kobiraj Hat \"},{\"DoctorID\":\"131012\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Bolaya Bazar \"},{\"DoctorID\":\"183178\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"131024\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Golapgonj Bazar \"},{\"DoctorID\":\"159384\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Full Laterhat\"},{\"DoctorID\":\"131010\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Bolaya Bazar \"},{\"DoctorID\":\"126600\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Dipto foundation\",\"EveningLocation\":\"\"},{\"DoctorID\":\"126609\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"131005\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Bibi kanchon, Korimpur\",\"EveningLocation\":\"\"},{\"DoctorID\":\"131081\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Dangarhat bazar\"},{\"DoctorID\":\"173973\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"12 Awolia\"},{\"DoctorID\":\"131030\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Dangarhat bazar\"},{\"DoctorID\":\"131019\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\" Golden Sonka bazar\"},{\"DoctorID\":\"131068\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Golapgonj S\\/C\",\"EveningLocation\":\"\"},{\"DoctorID\":\"131051\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"A+ Bogdurhat \"},{\"DoctorID\":\"131050\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Motuni Bazar \",\"EveningLocation\":\"\"},{\"DoctorID\":\"39591\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"13165\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Ramdubi Bazar \"},{\"DoctorID\":\"179348\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"126610\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"179345\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"29 mile\",\"EveningLocation\":\"\"},{\"DoctorID\":\"133460\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"10  mile Bazar \"},{\"DoctorID\":\"9951\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Cinema hall road, Kaharol \"},{\"DoctorID\":\"159380\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Cinema hall road, Kaharol \"},{\"DoctorID\":\"26391\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"67157\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj bazar \",\"EveningLocation\":\"\"},{\"DoctorID\":\"39588\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"183179\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"kaharol bazar \"},{\"DoctorID\":\"131002\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"131035\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Full Laterhat\"},{\"DoctorID\":\"131088\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Golapgonj Bazar \"},{\"DoctorID\":\"13633\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"A+ Bogdurhat \"},{\"DoctorID\":\"131083\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Chowdhuri hat\"},{\"DoctorID\":\"131007\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"131075\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"25 mile\",\"EveningLocation\":\"\"},{\"DoctorID\":\"131086\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Jarbari Bazaar \"},{\"DoctorID\":\"131077\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Doluaya bazar \",\"EveningLocation\":\"\"},{\"DoctorID\":\"87150\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"kaharol UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"166257\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"126596\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"131013\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Rampur Bazar \"},{\"DoctorID\":\"131021\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\" Golden Sonka bazar\"},{\"DoctorID\":\"41476\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Golapgonj Bazar \"},{\"DoctorID\":\"192631\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"131020\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\" Golden Sonka bazar\"},{\"DoctorID\":\"131034\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Full Laterhat\"},{\"DoctorID\":\"41477\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Golapgonj Bazar \"},{\"DoctorID\":\"192637\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"44242\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj bazar \",\"EveningLocation\":\"\"},{\"DoctorID\":\"52303\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"kaharol UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"173969\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"kaharol UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"188609\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj bazar \",\"EveningLocation\":\"\"},{\"DoctorID\":\"13160\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"10  mile Bazar \"},{\"DoctorID\":\"131023\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\" Golden Sonka bazar\"},{\"DoctorID\":\"131084\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Chowdhuri hat\"},{\"DoctorID\":\"11550\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"87179\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Jarbari Bazaar \"},{\"DoctorID\":\"131026\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Arjunerhat\",\"EveningLocation\":\"\"},{\"DoctorID\":\"131027\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"14 hat bazar\"},{\"DoctorID\":\"13720\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"131058\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"A+ Bogdurhat \"},{\"DoctorID\":\"131009\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"13624\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Kobiraj Hat \"},{\"DoctorID\":\"13602\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"131029\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"14 hat bazar\"},{\"DoctorID\":\"185951\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Kobiraj Hat \"},{\"DoctorID\":\"13645\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Golapgonj Bazar \"},{\"DoctorID\":\"159371\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Bibi kanchon, Korimpur\",\"EveningLocation\":\"\"},{\"DoctorID\":\"192638\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"39595\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Full Laterhat\"},{\"DoctorID\":\"131016\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"12 mile Bazar\"},{\"DoctorID\":\"192639\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"185954\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Golapgonj Bazar \"},{\"DoctorID\":\"192642\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"192648\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"kaharol UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"13609\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Kollani Bazar \"},{\"DoctorID\":\"44622\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Hatkhola.Dr DC Roy Diagnostic \",\"EveningLocation\":\"\"},{\"DoctorID\":\"131032\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"14  hat bazar \",\"EveningLocation\":\"14 hat bazar\"},{\"DoctorID\":\"13635\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"A+ Bogdurhat \"},{\"DoctorID\":\"131066\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Mahanpur Sub center \",\"EveningLocation\":\"\"},{\"DoctorID\":\"159376\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Cinema hall road, Kaharol \"},{\"DoctorID\":\"131307\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Birgonj UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"13385\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Satabgonj Road. Birgonj \"},{\"DoctorID\":\"173970\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"131053\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"Ramchandropur S\\/C\",\"EveningLocation\":\"\"},{\"DoctorID\":\"131036\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"131087\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Jarbari Bazaar \"},{\"DoctorID\":\"131042\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Birgonj bazar \"},{\"DoctorID\":\"115086\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"kaharol UHC\",\"EveningLocation\":\"\"},{\"DoctorID\":\"159393\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Full Laterhat\"},{\"DoctorID\":\"179347\",\"MarketCode\":\"H66\",\"Year\":\"2020\",\"MonthNumber\":\"08\",\"MorningLocation\":\"\",\"EveningLocation\":\"Kopa Sagunbari\"}]}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://edcr.squaregroup.com:444/DCRService.svc/Json/PostDoctorList",
+					"protocol": "https",
+					"host": [
+						"edcr",
+						"squaregroup",
+						"com"
+					],
+					"port": "444",
+					"path": [
+						"DCRService.svc",
+						"Json",
+						"PostDoctorList"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "postbill",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "UserID",
+							"value": "H62R2A",
+							"type": "text"
+						},
+						{
+							"key": "MPOCode",
+							"value": "7906",
+							"type": "text"
+						},
+						{
+							"key": "Year",
+							"value": "2020",
+							"type": "text"
+						},
+						{
+							"key": "MonthNumber",
+							"value": "09",
+							"type": "text"
+						},
+						{
+							"key": "DayNumber",
+							"value": "16",
+							"type": "text"
+						},
+						{
+							"key": "DA",
+							"value": "{\"Amount\":\"220\",\"AnSL\":\"20200916\",\"IsHoliday\":\"No\",\"AllowanceNature\":\"HQ\",\"EveningPlace\":\"EAST SHEWRAPARA-2\",\"MorningPlace\":\"NSDP AND OTHERS , NINS UNIT-2\",\"Remarks\":\"test remarks\",\"MasterSL\":\"0\"}",
+							"type": "text"
+						},
+						{
+							"key": "TA",
+							"value": "{\"Distance\":\"1\",\"RegionCode\":\"H62\",\"Amount\":\"151\"}",
+							"type": "text"
+						},
+						{
+							"key": "TAOther",
+							"value": "{\"TAOther\":[]}",
+							"type": "text"
+						},
+						{
+							"key": "Other",
+							"value": "{\"Other\":[]}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://202.59.140.108:131/DCRService.svc/Json/PostBillBody",
+					"protocol": "http",
+					"host": [
+						"202",
+						"59",
+						"140",
+						"108"
+					],
+					"port": "131",
+					"path": [
+						"DCRService.svc",
+						"Json",
+						"PostBillBody"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "eligibility",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://202.59.140.108:131/DCRService.svc/Json/EligiblePolicy?OperationMode=BILL&OperationDate=01-09-2020",
+					"protocol": "http",
+					"host": [
+						"202",
+						"59",
+						"140",
+						"108"
+					],
+					"port": "131",
+					"path": [
+						"DCRService.svc",
+						"Json",
+						"EligiblePolicy"
+					],
+					"query": [
+						{
+							"key": "OperationMode",
+							"value": "BILL"
+						},
+						{
+							"key": "OperationDate",
+							"value": "01-09-2020"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getExpense",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://edcr.squaregroup.com:444/DCRService.svc/Json/GetMpoTmRsmExpenseBillSummary?UserID=C00060&Designation=TM&EmpCode=3745&Year=2021&MonthNumber=03",
+					"protocol": "https",
+					"host": [
+						"edcr",
+						"squaregroup",
+						"com"
+					],
+					"port": "444",
+					"path": [
+						"DCRService.svc",
+						"Json",
+						"GetMpoTmRsmExpenseBillSummary"
+					],
+					"query": [
+						{
+							"key": "UserID",
+							"value": "C00060"
+						},
+						{
+							"key": "Designation",
+							"value": "TM"
+						},
+						{
+							"key": "EmpCode",
+							"value": "3745"
+						},
+						{
+							"key": "Year",
+							"value": "2021"
+						},
+						{
+							"key": "MonthNumber",
+							"value": "03"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetNewDcrNewDoctor",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://edcr.squaregroup.com:444/DCRService.svc/Json/GetNewDcrNewDoctor?UserID=M81R1D&Year=2020&MonthNumber=09",
+					"protocol": "https",
+					"host": [
+						"edcr",
+						"squaregroup",
+						"com"
+					],
+					"port": "444",
+					"path": [
+						"DCRService.svc",
+						"Json",
+						"GetNewDcrNewDoctor"
+					],
+					"query": [
+						{
+							"key": "UserID",
+							"value": "M81R1D"
+						},
+						{
+							"key": "Year",
+							"value": "2020"
+						},
+						{
+							"key": "MonthNumber",
+							"value": "09"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetSampleStatement",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://edcr.squaregroup.com:444/DCRService.svc/Json/GetSampleStatement?UserID=M71R1D&Year=2020&MonthNumber=10",
+					"protocol": "https",
+					"host": [
+						"edcr",
+						"squaregroup",
+						"com"
+					],
+					"port": "444",
+					"path": [
+						"DCRService.svc",
+						"Json",
+						"GetSampleStatement"
+					],
+					"query": [
+						{
+							"key": "UserID",
+							"value": "M71R1D"
+						},
+						{
+							"key": "Year",
+							"value": "2020"
+						},
+						{
+							"key": "MonthNumber",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SuperAccompany",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://edcr.squaregroup.com:444/DCRService.svc/Json/GetTmRsmAccompany?UserID=A00083&Designation=TM&MonthYear=09-2020",
+					"protocol": "https",
+					"host": [
+						"edcr",
+						"squaregroup",
+						"com"
+					],
+					"port": "444",
+					"path": [
+						"DCRService.svc",
+						"Json",
+						"GetTmRsmAccompany"
+					],
+					"query": [
+						{
+							"key": "UserID",
+							"value": "A00083"
+						},
+						{
+							"key": "Designation",
+							"value": "TM"
+						},
+						{
+							"key": "MonthYear",
+							"value": "09-2020"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SampleExecution",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://edcr.squaregroup.com:444/DCRService.svc/Json/GetItemExecute?UserID=M71R1D&Year=2020&MonthNumber=10&ProductCode=SmI6400000003",
+					"protocol": "https",
+					"host": [
+						"edcr",
+						"squaregroup",
+						"com"
+					],
+					"port": "444",
+					"path": [
+						"DCRService.svc",
+						"Json",
+						"GetItemExecute"
+					],
+					"query": [
+						{
+							"key": "UserID",
+							"value": "M71R1D"
+						},
+						{
+							"key": "Year",
+							"value": "2020"
+						},
+						{
+							"key": "MonthNumber",
+							"value": "10"
+						},
+						{
+							"key": "ProductCode",
+							"value": "SmI6400000003"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AbsentReport",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://edcr.squaregroup.com:444/DCRService.svc/Json/GetDoctorAbsentDcr?UserID=M71R1D&Designation=MPO&FromDate=01-10-2020&ToDate=21-10-2020",
+					"protocol": "https",
+					"host": [
+						"edcr",
+						"squaregroup",
+						"com"
+					],
+					"port": "444",
+					"path": [
+						"DCRService.svc",
+						"Json",
+						"GetDoctorAbsentDcr"
+					],
+					"query": [
+						{
+							"key": "UserID",
+							"value": "M71R1D"
+						},
+						{
+							"key": "Designation",
+							"value": "MPO"
+						},
+						{
+							"key": "FromDate",
+							"value": "01-10-2020"
+						},
+						{
+							"key": "ToDate",
+							"value": "21-10-2020"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://edcr.squaregroup.com:444/DCRService.svc/Json/GetDateTimeMilliseconds",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "UserID",
+							"value": "A00016",
+							"type": "text"
+						},
+						{
+							"key": "Year",
+							"value": "2021",
+							"type": "text"
+						},
+						{
+							"key": "MonthNumber",
+							"value": "02",
+							"type": "text"
+						},
+						{
+							"key": "FortnightType",
+							"value": "Second",
+							"type": "text"
+						},
+						{
+							"key": "JsonString",
+							"value": "{\"AuditList\":[{\"MarketCode\":\"F68\",\"PapersAudited\":\"PWDS,DVR,SAMPLE STATEMENT \",\"ProblemIdentified\":\"PWDS not maintain properly. Selective products given to non selected doctors. Doctors coverage 89 percent and plan execution 100 percent. Sample use not homogenous. \",\"Remarks\":\"Mr Shamsul Haque you are instructed to maintain PWDS properly. Dont send any selected products to non selected doctors. Ensure doctors coverage 95 percent and plan execution 90 percent. Use all promotional materials homogenously. \"}],\"HistoryList\":[{\"MarketCode\":\"F61\",\"Remarks\":\"Monitor business and indoor follow up. \",\"ParaType\":\"VisitObjectives\"},{\"MarketCode\":\"F67\",\"Remarks\":\"Strategic products prescription is poor also unit achievement. All unit achievement not up to mark. Party coverage is very poor only 68.45 percent. \",\"ParaType\":\"RootCause\"},{\"MarketCode\":\"F67\",\"Remarks\":\"Ensure committed prescription from champaign doctors and unit sales by regular monitoring. Ensure at least 60 percent all unir achievement. Ensure 85 percent party coverage by regular monitoring month of march-2021.\",\"ParaType\":\"ImprovementPlan\"},{\"MarketCode\":\"F67\",\"Remarks\":\"Previous instructions followed. \",\"ParaType\":\"Feedback\"}],\"PerformanceList\":[{\"LeaderShip\":\"Y\",\"MarketCode\":\"F66\",\"MarketShare\":\"24.4.\",\"Remarks\":\"Overall good.\",\"SalesAchieved\":\"101.90\"},{\"LeaderShip\":\"N\",\"MarketCode\":\"F68\",\"MarketShare\":\"14.22\",\"Remarks\":\"Poor market share. \",\"SalesAchieved\":\"103.74\"},{\"LeaderShip\":\"Y\",\"MarketCode\":\"F69\",\"MarketShare\":\"36.52\",\"Remarks\":\"Overall good. \",\"SalesAchieved\":\"102.99\"},{\"LeaderShip\":\"Y\",\"MarketCode\":\"F67\",\"MarketShare\":\"33.91\",\"Remarks\":\"Poor sales achievement. \",\"SalesAchieved\":\"88.00\"},{\"LeaderShip\":\"N\",\"MarketCode\":\"F61\",\"MarketShare\":\"5.13\",\"Remarks\":\"Poor sales achievement and market share. \",\"SalesAchieved\":\"83.46\"}]}",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://edcr.squaregroup.com:444/DCRService.svc/Json/GetDateTimeMilliseconds",
+					"protocol": "https",
+					"host": [
+						"edcr",
+						"squaregroup",
+						"com"
+					],
+					"port": "444",
+					"path": [
+						"DCRService.svc",
+						"Json",
+						"GetDateTimeMilliseconds"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
