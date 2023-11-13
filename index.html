@@ -21,9 +21,15 @@
 	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-PC6XJF4');</script>
+	
+	 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- End Google Tag Manager -->
-<meta property="og:image" content="images/mortuza2.jpg">
+<meta property="og:image" content="images/profile_pic.png">
 <meta property="og:image:type" content="image/jpg">
 <meta property="og:image:width" content="200">
 <meta property="og:image:height" content="200">
@@ -46,6 +52,136 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .responsive-image {
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+    .responsive-image {
+        width: 100vw;
+        height: 50vh;
+    }
+    body {
+    overflow-x: hidden;
+}
+}
+    </style>
+    
+  <meta charset="UTF-8">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">-->
+  <style>
+    .post-container {
+      margin-top: 4px;
+      
+    }
+
+    .post-card {
+      margin-bottom: 6px;
+     padding-right:8px;
+     padding-left:8px;
+ 
+    }
+
+    /* Set a fixed height for the card */
+    /* .card {*/
+    /*  height: 100%;*/
+    /*  padding:2px;*/
+    /*  display: flex;*/
+    /*  flex-direction: column;*/
+    /*  background:#F2F3F3;*/
+    /*}*/
+    .card {
+            height: 80%;
+            overflow: hidden ;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease-in-out;
+            flex-direction: column;
+            display: flex;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+    /*.card img {*/
+    /*  flex-grow: 1;*/
+    /*  object-fit: cover;*/
+    /*}*/
+     .card img {
+      width: 100%;
+      height: 300px; /* Adjust the height as needed */
+      object-fit: cover;
+    }
+     #progress-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      z-index: 1000;
+    }
+
+    #progress-bar {
+      height: 100%;
+      width: 0;
+      background-color: #007bff; /* Bootstrap primary color */
+      transition: width 0.3s ease;
+    }
+    .card a
+    .card-title,
+    .card-text {
+      color: black !important;
+    }
+    
+  #tabBar {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .tabItem {
+            cursor: pointer;
+            padding: 10px 20px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px 5px 0 0;
+            background-color: #f0f0f0;
+            transition: background-color 0.3s;
+        }
+
+        .tabItem:hover {
+            background-color: #ddd;
+        }
+
+        .contentContainer {
+            width: 100%;
+            max-width: 800px;
+            margin-top: 20px;
+        }
+
+        .content {
+            display: none;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 0 0 5px 5px;
+        }
+        .tab-content .fade {
+            opacity: 0;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .tab-content .fade.show {
+            opacity: 1;
+        }
+    
+  </style>
+    
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 	 <!-- Google Tag Manager (noscript) -->
@@ -68,62 +204,36 @@
 	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
 	          <!-- <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li> -->
 	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
-	          <!-- <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li> -->
+	          <li class="nav-item"><a href="#blog-section" class="nav-link"><span>Blog</span></a></li>
 	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
+	         
+
 	        </ul>
 	      </div>
 	    </div>
 	  </nav>
-	  <section class="hero-wrap js-fullheight " style="background-image:url(images/code35.jpg);background-position: center center;">
-		<div class="overlay"></div>
+	  <section class="hero-wrap responsive-image" style="background-image:url(images/code42.gif);background-position: center center;display:block">
+		<div class="overlay">
+		</div>
       <div class="container">
-        <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
+        <div class="row no-gutters slider-text  justify-content-center align-items-center">
           <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
-          	<div class="text text-center" style="margin-bottom: 50px;">
-		  				<h1 style="color: beige;">Mortuza Shahariar</h1>
-			  				<h2 style="color: beige;">
-								  <span
-								     class="txt-rotate"
-								     data-period="1"
-								     data-rotate='["Android/IOS Developer.", "Web Developer.","Web Designer UX/UI." ]'></span>
-								</h2>
-							</div>
+       <!--   	<div class="text " style="margin-bottom: 40px; margin-top:100px">-->
+		  				<!--<h1 style="color: beige;">Mortuza Shahariar</h1>-->
+			  		<!--		<h2 style="color: beige;">-->
+							<!--	  <span-->
+							<!--	     class="txt-rotate"-->
+							<!--	     data-period="1"-->
+							<!--	     data-rotate='["Mobile App Developer.", "Web Developer."," UX/UI Designer." ]'></span>-->
+							<!--	</h2>-->
+							<!--</div>-->
             </div>
           </div>
         </div>
     
 
     </section>
-<!-- Messenger Chat Plugin Code -->
-    <div id="fb-root"></div>
 
-    <!-- Your Chat Plugin code -->
-    <div id="fb-customer-chat" class="fb-customerchat">
-    </div>
-
-    <script>
-      var chatbox = document.getElementById('fb-customer-chat');
-      chatbox.setAttribute("page_id", "138325659527730");
-      chatbox.setAttribute("attribution", "biz_inbox");
-    </script>
-
-    <!-- Your SDK code -->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          xfbml            : true,
-          version          : 'v17.0'
-        });
-      };
-
-      (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-    </script>
     <section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
     	<div class="container">
     		<div class="row d-flex no-gutters">
@@ -131,7 +241,7 @@
     				<div class="img-about img d-flex align-items-stretch">
     					<div class="overlay"></div>
 	    				<div class="img d-flex img-fluid align-self-stretch align-items-center" >
-	    				<img class="img-fluid mx-auto img-thumbnail shadow-4-strong" src="images/mortuza2.jpg" alt="Mortuza Shahariar  Android Developer in bangladesh best android developer bd eDetailing app EDCR app Hatekhori app"/>
+	    				<img class="img-fluid mx-auto shadow-4-strong" src="images/profile_pic.png" alt="Mortuza Shahariar  Android Developer in bangladesh best android developer bd eDetailing app EDCR app Hatekhori app"/>
 						</div>
     				</div>
     			</div>
@@ -147,7 +257,7 @@
 		            	<li class="d-flex"><span>Address:</span> <span>Square Centre (11th Floor),
 							48, Mohakhali C/A, Dhaka-1212, Bangladesh. </span></li>
 		            	<li class="d-flex"><span>Zip code:</span> <span>1212</span></li>
-		            	<li class="d-flex"><span>Email:</span> <span>mortuza@squaregroup.com</span></li>
+		            	<li class="d-flex"><span>Email:</span> <span>shakil.isd@gmail.com</span></li>
 		            	<li class="d-flex"><span>Phone: </span> <span><a href="tel:+8801717642074">+8801717642074</a></span></li>
 				
 		            </ul>
@@ -212,6 +322,22 @@
 					  <div id="page-1" class= "page one">
 					  	<h2 class="heading">Education</h2>
 
+
+
+                     <div class="resume-wrap d-flex ftco-animate">
+					    	<div class="icon d-flex align-items-center justify-content-center">
+					    		<span><img src="images/dhaka.png" class="rounded" alt="Cinque Terre" width="40px" height="40px"></span>
+					    	</div>
+					    	<div class="text pl-3">
+		    					<span class="date">August 2023-Continue</span>
+		    					<h2>Executive Master of Business Administration</h2>
+		    					<span class="position">Department of Organization Strategy and Leadership (OSL)</span>
+		    					<span class="position"><br>University of Dhaka</span>
+		    					<p></p>
+	    					</div>
+	    				</div>
+
+
 						  <div class="resume-wrap d-flex ftco-animate">
 					    	<div class="icon d-flex align-items-center justify-content-center">
 					    		<span><img src="images/logo3.png" class="rounded" alt="Cinque Terre" width="40px" height="40px"></span>
@@ -220,7 +346,7 @@
 		    					<span class="date">2016-2017</span>
 		    					<h2>Master of Science in Computer Science & Engineering</h2>
 		    					<span class="position">Dhaka University of Engineering & Technology, Gazipur</span>
-		    					<p>Appeared</p>
+		    					<p>Dropout</p>
 	    					</div>
 	    				</div>
 
@@ -273,16 +399,14 @@
 		    					<div>
 									<ul>
 <li>Design and develop high-quality, user-friendly mobile applications for Android and iOS</li>
-<li>Platforms using Java, Kotlin, Swift, Flutter and React Native.</li>
+<li>Platforms using Java, Kotlin, Swift, Flutter.</li>
 <li>Collaborate with cross-functional teams to gather requirements, create technical</li>
 <li>specifications and deliver high-quality software on time and within budget.</li>
 <li>Work with designers to create visually appealing and intuitive user interfaces.</li>
-<li>Develop and maintain CI/CD pipeline using Jenkins and other tools.</li>
+<li>Develop and maintain CI/CD pipeline using Jenkins,gitAction and other tools and uploaded google play console </li>
 <li>Optimize application performance and troubleshoot issues using debugging tools and analytics.</li>
-<li>Stay up to date with the latest development trends and best practices in the mobile</li>
-<li>development industry.</li>
+<li>Stay up to date with the latest development trends and best practices in the mobile development industry.</li>
 <li>Worked closely with the design and product teams to implement new features and improve existing ones.</li>
-<li>Built and maintained the CI/CD pipeline using Jenkins.</li>
 <li>Payment system integration [VISA, MASTER] with City Bank [Both Mobile & Web].</li>
 <li>Integrate bKash and city touch API both web and mobile apps.</li>
 <li>Mentored junior developers and helped them improve their skills.</li>
@@ -335,7 +459,7 @@
 								</li>
 								 <li><b>Knowladge</b> : Strong knowledge of SDK</li>
 								 <li><b>Architecture</b> : MVVM, MVC </li>
-								 <li><b>Database</b> : Sqlite,GraphQL </li>
+								 <li><b>Database</b> : Sqlite </li>
 
 							 </ul>
 							 <div style="text-align: right;">
@@ -641,14 +765,70 @@
 								  <h2 class="heading">Certificates</h2>
 								
 								</div>
-								<div class="col-md-6 card">
-									<h5>IOS Training</h5>
-								<div class="card-body">
+								
+								<ul class="nav nav-tabs" id="myTabs">
+                                <div class="container mt-5">
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" id="myTabs">
+        <li class="nav-item">
+            <a class="nav-link active" id="tab1-tab" data-toggle="tab" href="#tab1" role="tab">All</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="tab2-tab" data-toggle="tab" href="#tab2" role="tab">Training</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="tab3-tab" data-toggle="tab" href="#tab3" role="tab">Project Management</a>
+        </li>
+    </ul>
+
+    <!-- Tab panes -->
+    <div class="tab-content mt-2">
+        <div class="tab-pane fade show active" id="tab1" role="tabpanel">
+          <div class="row">
+								<div class="col-md-5 mr-1">
+									<h5><a href="#" target="_blank">IOS Training</a></h5>
+								<div  class="card-body" >
 								 <p><b>Institute:</b> RiseUp Lab</p>
 								 <p><b>Duration:</b> 200 H</p>
-								 <img src="images/iso_t.png" class="img-fluid  certificate img-thumbnail"  onclick="onClick(this)">	
+								 <img src="images/iso_t.png" class=" certificate" height="200px"  onclick="onClick(this)">	
 								</div>
 							</div>
+								<div class="col-md-5 mr-1">
+								<h5><a href="https://coursera.org/share/90c6059b85789bfb446f2581d34110a1" target="_blank">CyberSecurity Fundamental</a></h5>
+								<div class="card-body">
+								 <p><b>Institute:</b> Coursera Online</p>
+								 <p><b>Marks:</b> 89%</p>
+								 <img src="images/sca.png"  class=" certificate" height="200px"  onclick="onClick(this)">	
+								</div>
+							</div>
+							</div>
+        </div>
+        <div class="tab-pane fade" id="tab2" role="tabpanel">
+          <div class="row">
+								<div class="col-md-5 mr-1">
+									<h5><a href="#" target="_blank">IOS Training</a></h5>
+								<div  class="card-body" >
+								 <p><b>Institute:</b> RiseUp Lab</p>
+								 <p><b>Duration:</b> 200 H</p>
+								 <img src="images/iso_t.png" class=" certificate" height="200px"  onclick="onClick(this)">	
+								</div>
+							</div>
+								<div class="col-md-5 mr-1">
+								<h5><a href="https://coursera.org/share/90c6059b85789bfb446f2581d34110a1" target="_blank">CyberSecurity Fundamental</a></h5>
+								<div class="card-body">
+								 <p><b>Institute:</b> Coursera Online</p>
+								 <p><b>Marks:</b> 89%</p>
+								 <img src="images/sca.png"  class=" certificate" height="200px"  onclick="onClick(this)">	
+								</div>
+							</div>
+							</div>
+        </div>
+        <div class="tab-pane fade" id="tab3" role="tabpanel">
+            <h4>Ongoing</h4>
+        </div>
+    </div>
+</div>
+								
 								</div>
 								</section>
 
@@ -664,58 +844,6 @@
 		  <img id="img01" class="img-fluid" style="width:auto">
 		</div>
 	  </div>
-   <!-- <section class="ftco-section" id="services-section" style="display: none;">
-    	<div class="container-fluid px-md-5">
-    		<div class="row justify-content-center py-5 mt-5">
-          <div class="col-md-12 heading-section text-center ftco-animate">
-          	<h1 class="big big-2">Services</h1>
-            <h2 class="mb-4">Services</h2>
-            <p>
-				 Don't Compromise On Quality</p>
-          </div>
-        </div>
-    		<div class="row">
-					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1 shadow">
-							<span class="icon">
-							<img src="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGc+PGc+PHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJtNjEuOTgyIDI5MS44NzR2ODAuMzY1bDE5NC43MTIgMjEuMjA0IDEyOC40MS0yMS4yMDR2LTQ5LjE4M2MwLTcuNTk3IDYuMjA4LTEzLjgwNSAxMy44MDUtMTMuODA1aDI1LjE0M3YtMTM2LjU1YzAtNy41MTItNi4xNTEtMTMuNjYzLTEzLjY2My0xMy42NjNoLTc5LjJ6IiBmaWxsPSIjOWZkNGZlIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L2c+PGc+PHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJtMjk2LjA5NiA0MTAuMTY3LTU4LjE2Ny0xMS40MjQtNDcuOTkxIDExLjQyNC0xMy4zNTEgNDQuNjQ3IDY1Ljk2MyA5LjA0MyA2Ni44NjktOS4wNDN6IiBmaWxsPSIjYmViOWRkIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L2c+PGc+PHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJtMzg1LjEwNCAzNzIuMjM4aC0zMjMuMTIydjI0LjI2NWMwIDcuNTEyIDYuMTUxIDEzLjY2MyAxMy42NjMgMTMuNjYzaDExNC4yOTMgMTA2LjE1OCA4OS4wMDh6IiBmaWxsPSIjZGRkYWVjIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L2c+PGc+PHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJtMzA5LjQxOSA0NTQuODE0aC0xMzIuODMyLTIwLjU4Yy05LjE4NCAwLTE2LjY5NiA3LjUxMi0xNi42OTYgMTYuNzI1djExLjcwN2MwIDIuNzUgMi4yMzkgNC45ODkgNC45ODkgNC45ODloMTk3LjQzNGMyLjcyMSAwIDQuOTg5LTIuMjM5IDQuOTg5LTQuOTg5di0xMS43MDdjMC05LjIxMy03LjU0LTE2LjcyNS0xNi43MjQtMTYuNzI1eiIgZmlsbD0iI2RkZGFlYyIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9nPjxnPjxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0ibTMwMi41MzEgMjkxLjg3NGMtNS41NTYgMjkuMzY4LTE2LjI0MyA1Ni42MS0zMC45MjYgODAuMzY1aDExMy41di00OS4xODNjMC03LjU5NyA2LjIwOC0xMy44MDUgMTMuODA1LTEzLjgwNWgyNS4xNDN2LTEzNi41NWMwLTcuNTEyLTYuMTUxLTEzLjY2My0xMy42NjMtMTMuNjYzaC03OS4ydjExOS42MjZjMCA3LjI1Ny01LjkyNCAxMy4yMS0xMy4xODEgMTMuMjF6IiBmaWxsPSIjODViZWVmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L2c+PGc+PHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJtMzg1LjEwNCAzNzIuMjM4aC0xMTMuNWMtOC41ODkgMTMuOTE5LTE4LjU2NyAyNi42MTgtMjkuNjc5IDM3LjkyOWg1NC4xNyA4OS4wMDh2LTM3LjkyOXoiIGZpbGw9IiNiZWI5ZGQiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvZz48Zz48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Im0xODQuMjEyIDQyOS4yNzNoNzUuNzdjMTEuOTM0IDAgMTQuMTczIDQuMzA5IDE3LjI5MSAxNC43NjlsMy4yMzIgMTAuNzcyaDI4LjkxM2wtMTMuMzIzLTQ0LjY0N2gtNTQuMTctNTEuOTg4eiIgZmlsbD0iI2E3YTJkMyIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9nPjxnPjxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0ibTYxLjk4MiAyOTEuODc0aDI1Ni4wMjZjNy4yNTcgMCAxMy4xODEtNS45NTMgMTMuMTgxLTEzLjIxdi0xMTkuNjI2LTY1LjMxMmwtMTU5LjgxOC0xOC43OTQtMTYzLjg3MSAxOC43OTR2MTg0LjkzOGMwIDcuMjU3IDUuOTI0IDEzLjIxIDEzLjE4MSAxMy4yMXoiIGZpbGw9IiNlZmY2ZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvZz48Zz48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Im01MS4yMSAyNTMuMjM2aDc2LjQ1MWMyLjgwNiAwIDUuMTAyLTIuMjk2IDUuMTAyLTUuMTAzdi0xMTAuNjk2YzAtMi44MDYtMi4yOTYtNS4wNzQtNS4xMDItNS4wNzRoLTc2LjQ1MWMtMi44MDYgMC01LjEwMiAyLjI2OC01LjEwMiA1LjA3NHYxMTAuNjk2YzAgMi44MDcgMi4yOTYgNS4xMDMgNS4xMDIgNS4xMDN6IiBmaWxsPSIjZmZkNzcyIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L2c+PGc+PHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJtMTcxLjM3MSAxMzcuNDM3djMzLjQ3OGMwIDIuODA2IDIuMjk2IDUuMTAzIDUuMDc0IDUuMTAzaDExMS4wNjJjMi43NzggMCA1LjA3NC0yLjI5NiA1LjA3NC01LjEwM3YtMzMuNDc4YzAtMi44MDYtMi4yOTYtNS4wNzQtNS4wNzQtNS4wNzRoLTExMS4wNjJjLTIuNzc4IDAtNS4wNzQgMi4yNjgtNS4wNzQgNS4wNzR6IiBmaWxsPSIjM2JjM2E0IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L2c+PGc+PHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJtNy41IDkzLjcyNmgzMjMuNjg5di01Ni43OGMwLTcuMjU3LTUuOTI0LTEzLjE4Mi0xMy4xODEtMTMuMTgyaC0yOTcuMzI3Yy03LjI1NyAwLTEzLjE4MSA1LjkyNS0xMy4xODEgMTMuMTgyeiIgZmlsbD0iIzM3NWU3ZCIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9nPjxnPjxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0ibTI4Ny41MDcgMTMyLjM2M2gtMjkuODQ5YzIuMDY5IDEyLjk1NSAzLjE0NiAyNi4zMzUgMy4xNDYgMzkuOTd2My42ODVoMjYuNzAyYzIuNzc4IDAgNS4wNzQtMi4yOTYgNS4wNzQtNS4xMDN2LTMzLjQ3OGMuMDAxLTIuODA2LTIuMjk1LTUuMDc0LTUuMDczLTUuMDc0eiIgZmlsbD0iIzAwYTg4NyIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9nPjxnPjxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0ibTI4Ny41MDcgMTc2LjAxOGgtMjYuNzAyYy0uMjI3IDE0LjI1OS0xLjYxNiAyOC4yMDYtNC4wODIgNDEuNjk5LTIuMjM5IDEyLjI0Ni01LjM4NiAyNC4wOTUtOS4zMjYgMzUuNTE5LTQuNzA2IDEzLjU3OC0xMC41NDUgMjYuNTA1LTE3LjQwNSAzOC42MzdoODguMDE2YzcuMjU3IDAgMTMuMTgxLTUuOTUzIDEzLjE4MS0xMy4yMXYtMTE5LjYyNS02NS4zMTJoLTgzLjAyN2M0LjEzOSAxMi4zODggNy4zNDIgMjUuMjg2IDkuNDk2IDM4LjYzN2gyOS44NDljMi43NzggMCA1LjA3NCAyLjI2OCA1LjA3NCA1LjA3NHYzMy40NzhjMCAyLjgwNy0yLjI5NiA1LjEwMy01LjA3NCA1LjEwM3oiIGZpbGw9IiNkOWVlZmYiIGZpbGwtcnVsZT0iZXZlbm9kZCIvPjwvZz48Zz48cGF0aCBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Im0yNDguMTYyIDkzLjcyNmg4My4wMjd2LTU2Ljc4YzAtNy4yNTctNS45MjQtMTMuMTgyLTEzLjE4MS0xMy4xODJoLTEwNy42MzJjMTYuMTg2IDIwLjI0MSAyOS4wODQgNDMuOTM5IDM3Ljc4NiA2OS45NjJ6IiBmaWxsPSIjMmI0ZDY2IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L2c+PGc+PHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJtMzAxLjA1NyA0NTQuODE0YzkuMjEzIDAgMTYuNzI0IDcuNTEyIDE2LjcyNCAxNi43MjV2MTEuNzA3YzAgMi43MMi4yMTEgNC45NjEtNC45MzIgNC45ODloMjguODg1YzIuNzIxIDAgNC45ODktMi4yMzkgNC45ODktNC45ODl2LTExLjcwN2MwLTkuMjEzLTcuNTQtMTYuNzI1LTE2LjcyNC0xNi43MjVoLTIwLjU4eiIgZmlsbD0iI2JlYjlkZCIgZmlsbC1ydWxlPSJldmVub2RkIi8+PC9nPjxnPjxwYXRoIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0ibTM4NS4xMDQgNDEwLjE2N3Y2NC4yMzVjMCA3LjYyNSA2LjIwOCAxMy44MzMgMTMuODA1IDEzLjgzM2g5MS43NThjNy41OTcgMCAxMy44MzMtNi4yMDggMTMuODMzLTEzLjgzM3YtMTUxLjM0NmMwLTcuNTk3LTYuMjM2LTEzLjgwNS0xMy44MzMtMTMuODA1aC02Ni42MTQtMjUuMTQzYy03LjU5NyAwLTEzLjgwNSA2LjIwOC0xMy44MDUgMTMuODA1djQ5LjE4MyAzNy45Mjh6IiBmaWxsPSIjOWZkNGZlIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L2c+PGc+PHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJtNDkwLjY2NyAzMDkuMjVoLTQ1Ljc1MWMxNC45NjcgMjMuNTg1IDI0LjAwOSA1NC4zNyAyNC4wMDkgODguMDE4IDAgMzUuMDY2LTkuODM2IDY3LjAxMy0yNS45NjUgOTAuOTY3aDQ3LjcwN2M3LjU5NyAwIDEzLjgzMy02LjIwOCAxMy44MzMtMTMuODMzdi0xNTEuMzQ2YzAtNy41OTgtNi4yMzYtMTMuODA2LTEzLjgzMy0xMy44MDZ6IiBmaWxsPSIjODViZWVmIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L2c+PGc+PHBhdGggY2xpcC1ydWxlPSJldmVub2RkIiBkPSJtMTA1LjEyNiAxMzcuNDM3djExMC42OTZjMCAyLjgwNi0yLjI5NiA1LjEwMy01LjA3NCA1LjEwM2gyNy42MWMyLjgwNiAwIDUuMTAyLTIuMjk2IDUuMTAyLTUuMTAzdi0xMTAuNjk2YzAtMi44MDYtMi4yOTYtNS4wNzQtNS4xMDItNS4wNzRoLTI3LjYxYzIuNzc3IDAgNS4wNzQgMi4yNjggNS4wNzQgNS4wNzR6IiBmaWxsPSIjZmJiYTU4IiBmaWxsLXJ1bGU9ImV2ZW5vZGQiLz48L2c+PGc+PHBhdGggZD0ibTI5MS41MzIgNjYuMjczYzQuMTQyIDAgNy41LTMuMzU3IDcuNS03LjV2LS4wNTdjMC00LjE0My0zLjM1OC03LjQ3Mi03LjUtNy40NzJzLTcuNSAzLjM4Ni03LjUgNy41MjggMy4zNTggNy41MDEgNy41IDcuNTAxeiIvPjxwYXRoIGQ9Im0yNTQuNDU1IDY2LjI3M2M0LjE0MiAwIDcuNS0zLjM1NyA3LjUtNy41di0uMDU3YzAtNC4xNDMtMy4zNTgtNy40NzItNy41LTcuNDcycy03LjUgMy4zODYtNy41IDcuNTI4IDMuMzU4IDcuNTAxIDcuNSA3LjUwMXoiLz48cGF0aCBkPSJtMjE3LjM3OCA2Ni4yNzNjNC4xNDIgMCA3LjUtMy4zNTcgNy41LTcuNXYtLjA1N2MwLTQuMTQzLTMuMzU4LTcuNDcyLTcuNS03LjQ3MnMtNy41IDMuMzg2LTcuNSA3LjUyOCAzLjM1OCA3LjUwMSA3LjUgNy41MDF6Ii8+PHBhdGggZD0ibTEyMy45MjUgNTEuMjczLTc2Ljc2My0uMDU3Yy0uMDAyIDAtLjAwMyAwLS4wMDUgMC00LjE0IDAtNy40OTcgMy4zNTQtNy41IDcuNDk0LS4wMDMgNC4xNDMgMy4zNTMgNy41MDMgNy40OTUgNy41MDZsNzYuNzYzLjA1N2guMDA1YzQuMTQgMCA3LjQ5Ny0zLjM1NCA3LjUtNy40OTQuMDAyLTQuMTQyLTMuMzUzLTcuNTAzLTcuNDk1LTcuNTA2eiIvPjxwYXRoIGQ9Im0yODcuNTA3IDEyNC44NjNoLTExMS4wNjJjLTYuOTMzIDAtMTIuNTc0IDUuNjQxLTEyLjU3NCAxMi41NzR2MzMuNDc5YzAgNi45NDggNS42NDEgMTIuNjAyIDEyLjU3NCAxMi42MDJoMTExLjA2MmM2LjkzMyAwIDEyLjU3NC01LjY1MyAxMi41NzQtMTIuNjAydi0zMy40NzljMC02LjkzMy01LjY0MS0xMi41NzQtMTIuNTc0LTEyLjU3NHptLTIuNDI2IDQzLjY1NWgtMTA2LjIwOXYtMjguNjU0aDEwNi4yMDl6Ii8+PHBhdGggZD0ibTI5Mi41ODEgMjEwLjIxN2gtMTIxLjIwOWMtNC4xNDIgMC03LjUgMy4zNTctNy41IDcuNXMzLjM1OCA3LjUgNy41IDcuNWgxMjEuMjA5YzQuMTQyIDAgNy41LTMuMzU3IDcuNS03LjVzLTMuMzU4LTcuNS03LjUtNy41eiIvPjxwYXRoIGQ9Im0xODkuODgyIDI0NS43MzZoLTE4LjUxYy00LjE0MiAwLTcuNSAzLjM1Ny03LjUgNy41czMuMzU4IDcuNSA3LjUgNy41aDE4LjUxYzQuMTQyIDAgNy41LTMuMzU3IDcuNS03LjVzLTMuMzU4LTcuNS03LjUtNy41eiIvPjxwYXRoIGQ9Im0yOTIuNTgxIDI0NS43MzZoLTYyLjA1Yy00LjE0MiAwLTcuNSAzLjM1Ny03LjUgNy41czMuMzU4IDcuNSA3LjUgNy41aDYyLjA1YzQuMTQyIDAgNy41LTMuMzU3IDcuNS03LjVzLTMuMzU4LTcuNS03LjUtNy41eiIvPjxwYXRoIGQ9Im00NDQuODAyIDQ1MC43NDRoLS4yNTVjLTQuMTQyIDAtNy41IDMuMzU3LTcuNSA3LjVzMy4zNTggNy41IDcuNSA3LjVoLjI1NWM0LjE0MiAwIDcuNS0zLjM1NyA3LjUtNy41cy0zLjM1OC03LjUtNy41LTcuNXoiLz48cGF0aCBkPSJtNDkwLjY2NyAzMDEuNzVoLTU5LjExNHYtMTI5LjA0OWMwLTExLjY2OS05LjQ5NC0yMS4xNjMtMjEuMTYzLTIxLjE2M2gtNzEuN3YtMTE0LjU5MmMwLTExLjQwNC05LjI3OC0yMC42ODItMjAuNjgyLTIwLjY4MmgtMjk3LjMyN2MtMTEuNDA0LjAwMS0yMC42ODEgOS4yNzgtMjAuNjgxIDIwLjY4MnYyNDEuNzE4YzAgMTEuNDE5IDkuMjc3IDIwLjcwOSAyMC42ODEgMjAuNzA5aDMzLjgwMXY5Ny4xMzFjMCAxMS42NjkgOS40OTQgMjEuMTYzIDIxLjE2MyAyMS4xNjNoMTA0LjIyM2wtOC44NjYgMjkuNjQ2aC0xNC45OTRjLTEzLjM0MiAwLTI0LjE5NiAxMC44NjctMjQuMTk2IDI0LjIyNnYxMS43MDdjMCA2Ljg4NyA1LjYwMyAxMi40ODkgMTIuNDg5IDEyLjQ4OWgxOTcuNDM0YzYuODg3IDAgMTIuNDg5LTUuNjAzIDEyLjQ4OS0xMi40ODl2LTExLjcwN2MwLTEzLjM1OC0xMC44NjctMjQuMjI2LTI0LjIyNS0yNC4yMjZoLTE0Ljk5MWwtOC44NDctMjkuNjQ2aDcxLjQ0M3Y1Ni43MzVjMCAxMS43NjMgOS41NTcgMjEuMzMzIDIxLjMwNSAyMS4zMzNoOTEuNzU4YzExLjc2MyAwIDIxLjMzMy05LjU3IDIxLjMzMy0yMS4zMzN2LTE1MS4zNDZjMC0xMS43NDgtOS41Ny0yMS4zMDYtMjEuMzMzLTIxLjMwNnptLTQ3NS42NjctMjMuMDg2di0xNzcuNDM4aDEzNy4wMzljNC4xNDIgMCA3LjUtMy4zNTcgNy41LTcuNXMtMy4zNTgtNy41LTcuNS03LjVoLTEzNy4wMzl2LTQ5LjI4YzAtMy4xMzMgMi41NDgtNS42ODIgNS42ODEtNS42ODJoMjk3LjMyN2MzLjEzMyAwIDUuNjgyIDIuNTQ5IDUuNjgyIDUuNjgydjQ5LjI3OWgtMTM3LjAxMWMtNC4xNDIgMC03LjUgMy4zNTctNy41IDcuNXMzLjM1OCA3LjUgNy41IDcuNWgxMzcuMDExdjE3Ny40MzhjMCAzLjE0Ny0yLjU0OSA1LjcwOS01LjY4MiA1LjcwOWgtMjk3LjMyN2MtMy4xMzMuMDAxLTUuNjgxLTIuNTYtNS42ODEtNS43MDh6bTMwMy4wMDggMjAuNzA5YzExLjQwNCAwIDIwLjY4Mi05LjI5IDIwLjY4Mi0yMC43MDl2LTExMi4xMjZoNzEuN2MzLjM5OCAwIDYuMTYzIDIuNzY1IDYuMTYzIDYuMTYzdjEyOS4wNDloLTE3LjY0NGMtMTEuNzQ4IDAtMjEuMzA1IDkuNTU4LTIxLjMwNSAyMS4zMDZ2NDEuNjgzaC0zMDguMTIydi02NS4zNjVoMjQ4LjUyNnptMjEuMjE1IDE3Mi4xNjZ2OS4xOTZoLTE5Mi40MTF2LTkuMTk2YzAtNS4wODcgNC4xMjUtOS4yMjYgOS4xOTYtOS4yMjZoMTczLjk5MWM1LjA4NiAwIDkuMjI0IDQuMTM5IDkuMjI0IDkuMjI2em0tNzkuMDE0LTY4Ljg3MmMtNC4xNDIgMC03LjUgMy4zNTctNy41IDcuNXMzLjM1OCA3LjUgNy41IDcuNWgzMC4yOThsOC44NDcgMjkuNjQ2aC0xMTIuNjk2bDguODY2LTI5LjY0NmgzMC4xODhjNC4xNDIgMCA3LjUtMy4zNTcgNy41LTcuNXMtMy4zNTgtNy41LTcuNS03LjVoLTE1MC4wNjdjLTMuMzk4IDAtNi4xNjMtMi43NjUtNi4xNjMtNi4xNjN2LTE2Ljc2NmgzMDguMTIzdjIyLjkyOXptMjM2Ljc5MSA3MS43MzVjMCAzLjQ5Mi0yLjg0MSA2LjMzMy02LjMzMyA2LjMzM2gtOTEuNzU4Yy0zLjQ3NyAwLTYuMzA1LTIuODQxLTYuMzA1LTYuMzMzdi0xNTEuMzQ2YzAtMy40NzcgMi44MjgtNi4zMDYgNi4zMDUtNi4zMDZoOTEuNzU4YzMuNDkyIDAgNi4zMzMgMi44MjkgNi4zMzMgNi4zMDZ6Ii8+PHBhdGggZD0ibTEyNy42NjEgMTI0Ljg2M2gtNzYuNDUxYy02Ljk0OSAwLTEyLjYwMyA1LjY0MS0xMi42MDMgMTIuNTc0djExMC42OTZjMCA2Ljk0OSA1LjY1MyAxMi42MDMgMTIuNjAzIDEyLjYwM2g3Ni40NTFjNi45NDkgMCAxMi42MDItNS42NTMgMTIuNjAyLTEyLjYwM3YtMTEwLjY5NWMwLTYuOTM0LTUuNjUzLTEyLjU3NS0xMi42MDItMTIuNTc1em0tMi4zOTggMTIwLjg3M2gtNzEuNjU1di0xMDUuODczaDcxLjY1NXoiLz48L2c+PC9nPjwvc3ZnPg==" width="64px"/>
-							</span>
-							<div class="desc">
-								<h3 class="mb-5">UI/UX Designer</h3>
-								<p>Helping you with rapid prototyping, market fit, and product design.</p>
-							</div>
-						</a>
-					</div>
-				
-					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1 shadow">
-							<span class="icon">
-								<img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNDgwIDQ4MCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDgwIDQ4MDsiIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPHBhdGggc3R5bGU9ImZpbGw6I0IzQjNCMzsiIGQ9Ik0zNTQuNDE2LDQ0NC44MzJsLTQ0Ljk2OC04OS45MzZIMTcwLjU1MmwtNDQuOTY4LDg5LjkzNkgzNTQuNDE2eiIvPg0KPHBhdGggc3R5bGU9ImZpbGw6IzI5QUJFMjsiIGQ9Ik01Niw4aDM2OGMyMi4wOTEsMCw0MCwxNy45MDksNDAsNDB2MjcyYzAsMjIuMDkxLTE3LjkwOSw0MC00MCw0MEg1NmMtMjIuMDkxLDAtNDAtMTcuOTA5LTQwLTQwVjQ4DQoJQzE2LDI1LjkwOSwzMy45MDksOCw1Niw4eiIvPg0KPGc+DQoJPHBhdGggc3R5bGU9ImZpbGw6I0U2RTZFNjsiIGQ9Ik00MjQsMzYwSDU2Yy0yMi4wOTEsMC00MC0xNy45MDktNDAtNDB2LTI0aDQ0OHYyNEM0NjQsMzQyLjA5MSw0NDYuMDkxLDM2MCw0MjQsMzYweiIvPg0KCTxwYXRoIHN0eWxlPSJmaWxsOiNFNkU2RTY7IiBkPSJNODAsNDQwaDMyMGM4LjgzNywwLDE2LDcuMTYzLDE2LDE2bDAsMGMwLDguODM3LTcuMTYzLDE2LTE2LDE2SDgwYy04LjgzNywwLTE2LTcuMTYzLTE2LTE2bDAsMA0KCQlDNjQsNDQ3LjE2Myw3MS4xNjMsNDQwLDgwLDQ0MHoiLz4NCjwvZz4NCjxwYXRoIHN0eWxlPSJmaWxsOiNGQkIwM0I7IiBkPSJNMTgwLjU4NCwyOTZsNC4xODQtMTIuODcyTDIxNiwyNzAuNDY0VjI0MC44bC0zMS4yLTEyLjY1NmwtNy41NjgtMjMuMjg4bDE3LjgyNC0yOC41OTJsLTE3LjQ0LTI0DQoJbC0zMi43MzYsOC4xNDRsLTE5LjgxNi0xNC40bC0yLjM2LTMzLjU1MmwtMjguMjE2LTkuMTc2TDcyLjg0LDEyOS4wNTZINDguMzM2TDI2LjY4LDEwMy4yOEwxNiwxMDYuNzUyVjI5NkgxODAuNTg0eiIvPg0KPHBhdGggc3R5bGU9ImZpbGw6IzI5QUJFMjsiIGQ9Ik0xMTQuNTc2LDI5NmMyMi4yMzQtMjkuODcxLDE2LjA0My03Mi4xMS0xMy44MjgtOTQuMzQ0Qzc1LjIyOSwxODIuNjYxLDM5LjkwNCwxODQuMDg4LDE2LDIwNS4wOFYyOTYNCglIMTE0LjU3NnoiLz4NCjxwYXRoIGQ9Ik0yMTYsNzJoMjE2djE2SDIxNlY3MnoiLz4NCjxwYXRoIGQ9Ik0yMTYsMTA0aDEzNnYxNkgyMTZWMTA0eiIvPg0KPHBhdGggZD0iTTIxNiwxMzZoMTM2djE2SDIxNlYxMzZ6Ii8+DQo8cGF0aCBkPSJNMjgwLDQwaDE1MnYxNkgyODBWNDB6Ii8+DQo8cGF0aCBkPSJNMjQ4LDQwaDE2djE2aC0xNlY0MHoiLz4NCjxwYXRoIGQ9Ik0yMzIsMzIwaDE2djE2aC0xNlYzMjB6Ii8+DQo8cGF0aCBkPSJNMTIyLjM0NCw4NS42NTZsMTEuMzEyLTExLjMxMkwxMjMuMzEyLDY0bDEwLjM0NC0xMC4zNDRsLTExLjMxMi0xMS4zMTJsLTE2LDE2Yy0zLjEyMywzLjEyNC0zLjEyMyw4LjE4OCwwLDExLjMxMg0KCUwxMjIuMzQ0LDg1LjY1NnoiLz4NCjxwYXRoIGQ9Ik0xODEuNjU2LDg1LjY1NmwxNi0xNmMzLjEyMy0zLjEyNCwzLjEyMy04LjE4OCwwLTExLjMxMmwtMTYtMTZsLTExLjMxMiwxMS4zMTJMMTgwLjY4OCw2NGwtMTAuMzQ0LDEwLjM0NEwxODEuNjU2LDg1LjY1NnoiDQoJLz4NCjxwYXRoIGQ9Ik0xMzYuNDA0LDg1LjQ2NGwxNi4wMTYtNDcuOTk4bDE1LjE3LDUuMDYybC0xNi4wMTYsNDcuOTk4TDEzNi40MDQsODUuNDY0eiIvPg0KPHBhdGggZD0iTTQxNiwxODRoLTE2djY0aC0xNnYtODBoLTE2djgwaC0xNnYtNDBoLTE2djQwaC0xNnYtNDhoLTE2djQ4aC0xNnYtMzJoLTE2djMyaC0xNnYxNmgxNzZ2LTE2aC0xNlYxODR6Ii8+DQo8cGF0aCBkPSJNOCwyOTZ2MjRjMC4wMjYsMjYuNDk5LDIxLjUwMSw0Ny45NzQsNDgsNDhoOTkuMDU2bC0zMiw2NEg4MGMtMTMuMjU1LDAtMjQsMTAuNzQ1LTI0LDI0czEwLjc0NSwyNCwyNCwyNGgzMjANCgljMTMuMjU1LDAsMjQtMTAuNzQ1LDI0LTI0cy0xMC43NDUtMjQtMjQtMjRoLTQzLjA1NmwtMzItNjRINDI0YzI2LjQ5OS0wLjAyNiw0Ny45NzQtMjEuNTAxLDQ4LTQ4VjQ4DQoJYy0wLjAyNi0yNi40OTktMjEuNTAxLTQ3Ljk3NC00OC00OEg1NkMyOS41MDEsMC4wMjYsOC4wMjYsMjEuNTAxLDgsNDh2MTU3LjAwOHYwLjA3MlYyOTZ6IE0xNjkuNiwyMDcuMzM2bDcuNTc2LDIzLjI4OA0KCWMwLjcyOSwyLjI0NiwyLjQxMiw0LjA1Niw0LjYsNC45NDRMMjA4LDI0Ni4ydjE4Ljg4bC0yNi4yNCwxMC42MzJjLTIuMTkzLDAuODg0LTMuODc5LDIuNjk5LTQuNiw0Ljk1MmwtMi40LDcuMzM2aC00Ni4wODgNCgljMTcuOTI4LTM3LjUzNiwyLjAzMi04Mi40OTktMzUuNTA0LTEwMC40MjdjLTIyLjA0Ny0xMC41My00Ny44MzMtOS43MTItNjkuMTY4LDIuMTk1VjExMi41NmwxOC4xODQsMjEuNjQ4DQoJYzEuNTIsMS44MTEsMy43NjQsMi44NTYsNi4xMjgsMi44NTZINzIuOGMyLjM2NCwwLDQuNjA4LTEuMDQ1LDYuMTI4LTIuODU2TDk3LjEyLDExMi41NmwxNy45NTIsNS44MzJsMS45ODQsMjguMTg0DQoJYzAuMTY0LDIuMzU3LDEuMzYyLDQuNTIxLDMuMjcyLDUuOTEybDE5LjgxNiwxNC40YzEuOTE3LDEuMzg0LDQuMzQ1LDEuODU1LDYuNjQsMS4yODhsMjcuNDY0LTYuODI0bDExLjEwNCwxNS4yNzJsLTE0Ljk2OCwyNA0KCUMxNjkuMTQ0LDIwMi42MzYsMTY4Ljg1NywyMDUuMDkzLDE2OS42LDIwNy4zMzZMMTY5LjYsMjA3LjMzNnogTTI0LDI4OHYtNzkuMmMyNS44NzYtMjAuMTg3LDYzLjIxOC0xNS41NzUsODMuNDA0LDEwLjMwMg0KCUMxMjIuOTksMjM5LjA4LDEyNC4xOTMsMjY2Ljc0NCwxMTAuNCwyODhIMjR6IE00MDgsNDU2YzAsNC40MTgtMy41ODIsOC04LDhIODBjLTQuNDE4LDAtOC0zLjU4Mi04LThzMy41ODItOCw4LThoMzIwDQoJQzQwNC40MTgsNDQ4LDQwOCw0NTEuNTgyLDQwOCw0NTZ6IE0zMzkuMDU2LDQzMkgxNDAuOTQ0bDMyLTY0aDEzNC4xMTJMMzM5LjA1Niw0MzJ6IE00MjQsMzUySDU2Yy0xNy42NzMsMC0zMi0xNC4zMjctMzItMzJ2LTE2DQoJaDkwLjU3NmgwLjA3Mkg0NTZ2MTZDNDU2LDMzNy42NzMsNDQxLjY3MywzNTIsNDI0LDM1MnogTTU2LDE2aDM2OGMxNy42NzMsMCwzMiwxNC4zMjcsMzIsMzJ2MjQwSDE5NC4wNGwyNC45NjgtMTAuMTINCgljMy4wMTYtMS4yMjQsNC45OS00LjE1Myw0Ljk5Mi03LjQwOFYyNDAuOGMwLjAwMS0zLjI1OC0xLjk3My02LjE5MS00Ljk5Mi03LjQxNkwxOTEuMiwyMjIuMTM2bC01LjI2NC0xNi4ybDE1Ljg1Ni0yNS40NA0KCWMxLjcyLTIuNzY0LDEuNTkzLTYuMjk0LTAuMzItOC45MjhsLTE3LjQ0LTI0Yy0xLjkxNS0yLjYzNy01LjIzNy0zLjg0OS04LjQtMy4wNjRsLTI5LjA4OCw3LjJMMTMyLjgsMTQxLjcybC0yLjEwNC0yOS44NA0KCWMtMC4yMjktMy4yNTMtMi40MS02LjA0Mi01LjUxMi03LjA0OGwtMjguMi05LjE2OGMtMy4xMDMtMC45ODgtNi40OTUtMC4wMTMtOC42LDIuNDcybC0xOS4yNTYsMjIuOTJINTIuMDY0TDMyLjgsOTguMTM2DQoJYy0yLjEwNi0yLjQ4OC01LjUwMy0zLjQ2NC04LjYwOC0yLjQ3MkwyNCw5NS43MzZWNDhDMjQsMzAuMzI3LDM4LjMyNywxNiw1NiwxNkw1NiwxNnoiLz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K" width="64px" />
-							</span>
-							<div class="desc">
-								<h3 class="mb-5">Web Developer</h3>
-								<p> design, create, deploy and maintain specially built solutions for organizations with narrowly defined requirements</p>
-							</div>
-						</a>
-					</div>
-
-					<div class="col-md-4 text-center d-flex ftco-animate">
-						<a href="#" class="services-1 shadow">
-							<span class="icon">
-								<img src="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIgNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHdpZHRoPSI1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxsaW5lYXJHcmFkaWVudCBpZD0iU1ZHSURfMV8iIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjMuODIxIiB4Mj0iNDU5LjUzMSIgeTE9IjMzNi4zMzEiIHkyPSI4NC43NzQiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2RjZmRlZSIgc3RvcC1vcGFjaXR5PSIwIi8+PHN0b3Agb2Zmc2V0PSIuNjI4OCIgc3RvcC1jb2xvcj0iI2QyZjNlNCIvPjwvbGluZWFyR3JhZGllbnQ+PGc+PGc+PHBhdGggZD0ibTE2LjA3NCAyOTUuOTQzYzE4LjcyNyA2NC4wMDMgNzIuNzA3IDE5NC41NjQgMTYzLjkyMiAxODIuODQ1IDkxLjQ4Ni0xMS43NTUgNTUuNzU5LTEyOS43MjUgMTM5LjUwOC0xNDUuODk0IDM2Ljg2Ny03LjExOCA2MS44NTcgNTYuNjg5IDk4LjgwNiA1NC43MDQgNDcuNTg4LTIuNTU3IDcxLjgxLTQ5LjY2MyA4NS4xMDgtODkuMjY0IDI4LjE5Ny04My45NjgtMTQuMDI5LTIyNi4zNTItMTEyLjg1OS0yNTEuMDEyLTg2LjI0NC0yMS41MTktOTYuMzMyIDgzLjg1NS0xNzEuMzIyIDUzLjI0OC00Mi4xNDktMTcuMjAzLTM3LjkzOC02OC41NzYtODkuMjcyLTc4Ljk0Mi0xNTUuMjk4LTMxLjM1OS0xMzguODEgMTg5LjE1LTExMy44OTEgMjc0LjMxNXoiIGZpbGw9InVybCgjU1ZHSURfMV8pIi8+PC9nPjxnPjxnPjxnPjxnPjxwYXRoIGQ9Im0zNTAuMjMyIDQ5My40MDJoLTE4OC40NjRjLTE2LjU2OSAwLTMwLTEzLjQzMS0zMC0zMHYtMzgwLjY3OWMwLTE2LjU2OSAxMy40MzEtMzAgMzAtMzBoMTg4LjQ2NGMxNi41NjkgMCAzMCAxMy40MzEgMzAgMzB2MzgwLjY3OGMwIDE2LjU2OS0xMy40MzEgMzAuMDAxLTMwIDMwLjAwMXoiIGZpbGw9IiMyNjI2YmMiIG9wYWNpdHk9Ii4xIi8+PHBhdGggZD0ibTM1MC4yMzIgNDY5LjQwMmgtMTg4LjQ2NGMtMTYuNTY5IDAtMzAtMTMuNDMxLTMwLTMwdi0zODAuNjc5YzAtMTYuNTY5IDEzLjQzMS0zMCAzMC0zMGgxODguNDY0YzE2LjU2OSAwIDMwIDEzLjQzMSAzMCAzMHYzODAuNjc4YzAgMTYuNTY5LTEzLjQzMSAzMC4wMDEtMzAgMzAuMDAxeiIgZmlsbD0iIzY1ODNmZSIvPjxwYXRoIGQ9Im0xMzEuNzcgNzEuNjMyaDI0OC40NnYzNTQuODZoLTI0OC40NnoiIGZpbGw9IiMyZDU4ZTAiLz48cGF0aCBkPSJtMjM5LjIyNSAyMDEuOTE1aC01MC45NDNjLTUuNTIzIDAtMTAtNC40NzctMTAtMTB2LTQ3LjAxMWMwLTUuNTIzIDQuNDc3LTEwIDEwLTEwaDUwLjk0M2M1LjUyMyAwIDEwIDQuNDc3IDEwIDEwdjQ3LjAxMWMwIDUuNTIzLTQuNDc3IDEwLTEwIDEweiIgZmlsbD0iIzFmNTBjOSIvPjxwYXRoIGQ9Im0zMjQuMTQ0IDIwMS42MzNoLTUwLjk0M2MtNS41MjMgMC0xMC00LjQ3Ny0xMC0xMHYtNDcuMDExYzAtNS41MjMgNC40NzctMTAgMTAtMTBoNTAuOTQzYzUuNTIzIDAgMTAgNC40NzcgMTAgMTB2NDcuMDExYzAgNS41MjMtNC40NzcgMTAtMTAgMTB6IiBmaWxsPSIjMWY1MGM5Ii8+PGc+PHBhdGggZD0ibTM3OS45NDggMTM0LjYyMnY2Ny4wMWgtMjEuNTVjLTUuNTIgMC0xMC00LjQ4LTEwLTEwdi00Ny4wMWMwLTUuNTIgNC40OC0xMCAxMC0xMHoiIGZpbGw9IiMxZjUwYzkiLz48L2c+PGc+PHBhdGggZD0ibTMwOS44NCA5My4wNjFoLTEwNy42OGMtMi43NjEgMC01IDIuMjM5LTUgNXMyLjIzOSA1IDUgNWgxMDcuNjhjMi43NjEgMCA1LTIuMjM5IDUtNXMtMi4yMzgtNS01LTV6IiBmaWxsPSIjZmZmIi8+PC9nPjxnPjxnPjxwYXRoIGQ9Im0yMzkuMjI1IDE5MS40MDNoLTUwLjk0M2MtNS41MjMgMC0xMC00LjQ3Ny0xMC0xMHYtNDcuMDExYzAtNS41MjMgNC40NzctMTAgMTAtMTBoNTAuOTQzYzUuNTIzIDAgMTAgNC40NzcgMTAgMTB2NDcuMDExYzAgNS41MjMtNC40NzcgMTAtMTAgMTB6IiBmaWxsPSIjZmY3ZWI4Ii8+PGcgZmlsbD0iI2ZmZiI+PHBhdGggZD0ibTIyOC41OTQgMTcwLjUwN2gtMjAuNjgxYy0yLjc2MSAwLTUgMi4yMzktNSA1czIuMjM5IDUgNSA1aDIwLjY4MWMyLjc2MSAwIDUtMi4yMzkgNS01cy0yLjIzOS01LTUtNXoiLz48cGF0aCBkPSJtMjI4LjU5NCAxNTQuMTc3aC01LjY4MWMtMi43NjEgMC01IDIuMjM5LTUgNXMyLjIzOSA1IDUgNWg1LjY4MWMyLjc2MSAwIDUtMi4yMzkgNS01cy0yLjIzOS01LTUtNXoiLz48L2c+PC9nPjxnPjxwYXRoIGQ9Im0zMjQuMTQ0IDE5MS4xMjJoLTUwLjk0M2MtNS41MjMgMC0xMC00LjQ3Ny0xMC0xMHYtNDcuMDEyYzAtNS41MjMgNC40NzctMTAgMTAtMTBoNTAuOTQzYzUuNTIzIDAgMTAgNC40NzcgMTAgMTB2NDcuMDExYzAgNS41MjMtNC40NzcgMTAuMDAxLTEwIDEwLjAwMXoiIGZpbGw9IiMwMmZmYjMiLz48ZyBmaWxsPSIjZmZmIj48cGF0aCBkPSJtMzEzLjUxMyAxNzAuMjI2aC0yMC42ODFjLTIuNzYxIDAtNSAyLjIzOS01IDVzMi4yMzkgNSA1IDVoMjAuNjgxYzIuNzYxIDAgNS0yLjIzOSA1LTVzLTIuMjM5LTUtNS01eiIvPjxwYXRoIGQ9Im0zMTMuNTEzIDE1My44OTVoLTUuNjgxYy0yLjc2MSAwLTUgMi4yMzktNSA1czIuMjM5IDUgNSA1aDUuNjgxYzIuNzYxIDAgNS0yLjIzOSA1LTVzLTIuMjM5LTUtNS01eiIvPjwvZz48L2c+PGc+PHBhdGggZD0ibTM3OS45NDggMTI0LjExMXY2Ny4wMWgtMjEuNTVjLTUuNTIgMC0xMC00LjQ4LTEwLTEwdi00Ny4wMWMwLTUuNTIgNC40OC0xMCAxMC0xMHoiIGZpbGw9IiM5ZmIwZmUiLz48L2c+PC9nPjxwYXRoIGQ9Im0xMzEuNzcgNDI2LjQ5MnYtMTg0Ljc0YzAtMTMuOCAxMS4xOS0yNSAyNS0yNWgxOTguNDZjMTMuODEgMCAyNSAxMS4yIDI1IDI1djE4NC43NHoiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJtMzUwLjIzMiA0NzQuNDAxaC0xODguNDY0Yy0xOS4yOTkgMC0zNS0xNS43MDEtMzUtMzV2LTM4MC42NzdjMC0xOS4yOTkgMTUuNzAxLTM1IDM1LTM1aDE4OC40NjRjMTkuMjk5IDAgMzUgMTUuNzAxIDM1IDM1djM4MC42NzhjMCAxOS4yOTgtMTUuNzAxIDM0Ljk5OS0zNSAzNC45OTl6bS0xODguNDY0LTQ0MC42NzdjLTEzLjc4NSAwLTI1IDExLjIxNS0yNSAyNXYzODAuNjc4YzAgMTMuNzg1IDExLjIxNSAyNSAyNSAyNWgxODguNDY0YzEzLjc4NSAwIDI1LTExLjIxNSAyNS0yNXYtMzgwLjY3OGMwLTEzLjc4NS0xMS4yMTUtMjUtMjUtMjV6IiBmaWxsPSIjMjYyNmJjIi8+PGc+PHBhdGggZD0ibTI3My40ODMgNTYuMDk0aC0zNC45NjZjLTIuNzYxIDAtNS0yLjIzOS01LTVzMi4yMzktNSA1LTVoMzQuOTY2YzIuNzYxIDAgNSAyLjIzOSA1IDVzLTIuMjM5IDUtNSA1eiIgZmlsbD0iI2I3YzVmZiIvPjwvZz48Y2lyY2xlIGN4PSIyOTYuODEzIiBjeT0iNTEuMDkyIiBmaWxsPSIjYjdjNWZmIiByPSI1LjAwMiIvPjwvZz48L2c+PGc+PGc+PHBhdGggZD0ibTIzNC41OTQgMjQ5LjA2MmgtMjAuNjgxYy0yLjc2MSAwLTUgMi4yMzktNSA1czIuMjM5IDUgNSA1aDIwLjY4MWMyLjc2MSAwIDUtMi4yMzkgNS01cy0yLjIzOS01LTUtNXoiIGZpbGw9IiMwMGQ4OTAiLz48cGF0aCBkPSJtMzM2LjU5NCAyNjkuMzM1aC0xMjIuNjgxYy0yLjc2MSAwLTUgMi4yMzktNSA1czIuMjM5IDUgNSA1aDEyMi42ODFjMi43NjEgMCA1LTIuMjM5IDUtNXMtMi4yMzktNS01LTV6IiBmaWxsPSIjOWZiMGZlIi8+PC9nPjxwYXRoIGQ9Im0xODQuOTI2IDI3OS4zMzVoLTIwLjI3MmMtMi43NjEgMC01LTIuMjM5LTUtNXYtMjAuMjcyYzAtMi43NjEgMi4yMzktNSA1LTVoMjAuMjcyYzIuNzYxIDAgNSAyLjIzOSA1IDV2MjAuMjcyYzAgMi43NjEtMi4yMzkgNS01IDV6IiBmaWxsPSIjMDJmZmIzIi8+PC9nPjxnPjxnPjxwYXRoIGQ9Im0yMzQuNTk0IDMxMS4wMDZoLTIwLjY4MWMtMi43NjEgMC01IDIuMjM5LTUgNXMyLjIzOSA1IDUgNWgyMC42ODFjMi43NjEgMCA1LTIuMjM5IDUtNXMtMi4yMzktNS01LTV6IiBmaWxsPSIjZmY1YmE4Ii8+PHBhdGggZD0ibTMzNi41OTQgMzMxLjI3OGgtMTIyLjY4MWMtMi43NjEgMC01IDIuMjM5LTUgNXMyLjIzOSA1IDUgNWgxMjIuNjgxYzIuNzYxIDAgNS0yLjIzOSA1LTVzLTIuMjM5LTUtNS01eiIgZmlsbD0iIzlmYjBmZSIvPjwvZz48cGF0aCBkPSJtMTg0LjkyNiAzNDEuMjc4aC0yMC4yNzJjLTIuNzYxIDAtNS0yLjIzOS01LTV2LTIwLjI3MmMwLTIuNzYxIDIuMjM5LTUgNS01aDIwLjI3MmMyLjc2MSAwIDUgMi4yMzkgNSA1djIwLjI3MmMwIDIuNzYxLTIuMjM5IDUtNSA1eiIgZmlsbD0iI2ZmN2ViOCIvPjwvZz48Zz48Zz48cGF0aCBkPSJtMjM0LjU5NCAzNzIuOTQ5aC0yMC42ODFjLTIuNzYxIDAtNSAyLjIzOS01IDVzMi4yMzkgNSA1IDVoMjAuNjgxYzIuNzYxIDAgNS0yLjIzOSA1LTVzLTIuMjM5LTUtNS01eiIgZmlsbD0iIzY1ODNmZSIvPjxwYXRoIGQ9Im0zMzYuNTk0IDM5My4yMjFoLTEyMi42ODFjLTIuNzYxIDAtNSAyLjIzOS01IDVzMi4yMzkgNSA1IDVoMTIyLjY4MWMyLjc2MSAwIDUtMi4yMzkgNS01cy0yLjIzOS01LTUtNXoiIGZpbGw9IiM5ZmIwZmUiLz48L2c+PHBhdGggZD0ibTE4NC45MjYgNDAzLjIyMWgtMjAuMjcyYy0yLjc2MSAwLTUtMi4yMzktNS01di0yMC4yNzJjMC0yLjc2MSAyLjIzOS01IDUtNWgyMC4yNzJjMi43NjEgMCA1IDIuMjM5IDUgNXYyMC4yNzJjMCAyLjc2MS0yLjIzOSA1LTUgNXoiIGZpbGw9IiM5ZmIwZmUiLz48L2c+PC9nPjxwYXRoIGQ9Im00MTguMzM2IDM5Ny4yNGMtNy44OCAwLTE0LjI5MS02LjQxMS0xNC4yOTEtMTQuMjkyczYuNDExLTE0LjI5MiAxNC4yOTEtMTQuMjkyIDE0LjI5MSA2LjQxMSAxNC4yOTEgMTQuMjkyLTYuNDExIDE0LjI5Mi0xNC4yOTEgMTQuMjkyem0wLTE4LjU4M2MtMi4zNjYgMC00LjI5MSAxLjkyNS00LjI5MSA0LjI5MnMxLjkyNSA0LjI5MiA0LjI5MSA0LjI5MiA0LjI5MS0xLjkyNSA0LjI5MS00LjI5Mi0xLjkyNS00LjI5Mi00LjI5MS00LjI5MnoiIGZpbGw9IiM2NTgzZmUiLz48cGF0aCBkPSJtODIuOTE5IDE4NC40MDljLTIuNzYxIDAtNS0yLjIzOS01LTUgMC0zLjMwOS0yLjY5MS02LTYtNi0yLjc2MSAwLTUtMi4yMzktNS01czIuMjM5LTUgNS01YzMuMzA5IDAgNi0yLjY5MSA2LTYgMC0yLjc2MSAyLjIzOS01IDUtNXM1IDIuMjM5IDUgNWMwIDMuMzA5IDIuNjkxIDYgNiA2IDIuNzYxIDAgNSAyLjIzOSA1IDVzLTIuMjM5IDUtNSA1Yy0zLjMwOSAwLTYgMi42OTEtNiA2IDAgMi43NjEtMi4yMzkgNS01IDV6IiBmaWxsPSIjMDFlY2E1Ii8+PHBhdGggZD0ibTQzMi42NTIgNDQyLjQ5M2MtMi43NjIgMC01LTIuMjM5LTUtNSAwLTMuMzA5LTIuNjkxLTYtNi02LTIuNzYyIDAtNS0yLjIzOS01LTVzMi4yMzgtNSA1LTVjMy4zMDkgMCA2LTIuNjkxIDYtNiAwLTIuNzYxIDIuMjM4LTUgNS01czUgMi4yMzkgNSA1YzAgMy4zMDkgMi42OTEgNiA2IDYgMi43NjIgMCA1IDIuMjM5IDUgNXMtMi4yMzggNS01IDVjLTMuMzA5IDAtNiAyLjY5MS02IDYgMCAyLjc2MS0yLjIzOCA1LTUgNXoiIGZpbGw9IiMwMWVjYTUiLz48ZyBmaWxsPSIjZmY1YmE4Ij48cGF0aCBkPSJtNDQzLjY1MiAxNTAuNjIyYy0yLjc2MiAwLTUtMi4yMzktNS01IDAtMy4zMDktMi42OTEtNi02LTYtMi43NjIgMC01LTIuMjM5LTUtNXMyLjIzOC01IDUtNWMzLjMwOSAwIDYtMi42OTEgNi02IDAtMi43NjEgMi4yMzgtNSA1LTVzNSAyLjIzOSA1IDVjMCAzLjMwOSAyLjY5MSA2IDYgNiAyLjc2MiAwIDUgMi4yMzkgNSA1cy0yLjIzOCA1LTUgNWMtMy4zMDkgMC02IDIuNjkxLTYgNiAwIDIuNzYxLTIuMjM4IDUtNSA1eiIvPjxwYXRoIGQ9Im03Mi42MjcgMjMzLjcwNmMtMi43NjEgMC01LTIuMjM5LTUtNSAwLTMuMzA5LTIuNjkxLTYtNi02LTIuNzYxIDAtNS0yLjIzOS01LTVzMi4yMzktNSA1LTVjMy4zMDkgMCA2LTIuNjkxIDYtNiAwLTIuNzYxIDIuMjM5LTUgNS01czUgMi4yMzkgNSA1YzAgMy4zMDkgMi42OTEgNiA2IDYgMi43NjEgMCA1IDIuMjM5IDUgNXMtMi4yMzkgNS01IDVjLTMuMzA5IDAtNiAyLjY5MS02IDYgMCAyLjc2MS0yLjIzOCA1LTUgNXoiLz48L2c+PC9nPjwvZz48L3N2Zz4=" width="64px" />
-							</span>
-							<div class="desc">
-								<h3 class="mb-5"><b>App Developer</b></h3>
-								<p>Moving the project from prototype to MVP/MVVM with a dedicated development</p>
-							</div>
-						</a>
-					</div>
-					
-				</div>
-    	</div>
-    </section>
- -->
-
     <section class="ftco-section ftco-project" id="projects-section">
     	<!-- <div class="container-fluid px-md-0">
 
@@ -894,26 +1022,26 @@ payPoint </b></a></p>
 		  </div>
 			</div>
 
-			<div class="col-md-4">
-				<div class="card2">
-			  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-				  <div class="carousel-inner">
-					<div class="carousel-item active">
-					  <img class="d-block w-100 rounded" height="500px"  src="images/hearts.png" alt="GPS Android App">
-					</div>
+			<!--<div class="col-md-4">-->
+			<!--	<div class="card2">-->
+			<!--  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">-->
+			<!--	  <div class="carousel-inner">-->
+			<!--		<div class="carousel-item active">-->
+			<!--		  <img class="d-block w-100 rounded" height="500px"  src="images/hearts.png" alt="GPS Android App">-->
+			<!--		</div>-->
 				
-				  </div>
-				</div>
-			  <div>
-				  <p><a href="https://play.google.com/store/apps/details?id=com.heartsbook.moments" target="_blank"><b> heartsbook</b></a>  <p>
-				<h6>Company: N/A</h6>
-				<h6>Platform: Android</h6>
-					  <p class="card-text"> heartsbook is like a social communication app.
-						  <br> My Role: Ux Design,Page creation and boost functionaly.
-					  </p>
-			  </div>
-		  </div>
-			</div>
+			<!--	  </div>-->
+			<!--	</div>-->
+			<!--  <div>-->
+			<!--	  <p><a href="https://play.google.com/store/apps/details?id=com.heartsbook.moments" target="_blank"><b> heartsbook</b></a>  <p>-->
+			<!--	<h6>Company: N/A</h6>-->
+			<!--	<h6>Platform: Android</h6>-->
+			<!--		  <p class="card-text"> heartsbook is like a social communication app.-->
+			<!--			  <br> My Role: Ux Design,Page creation and boost functionaly.-->
+			<!--		  </p>-->
+			<!--  </div>-->
+		 <!-- </div>-->
+			<!--</div>-->
 
 
 			<div class="col-md-4">
@@ -1076,68 +1204,81 @@ payPoint </b></a></p>
 		
 	</section>
 
-   <section class="ftco-section" id="blog-section" style="display: none;">
+   <section class="ftco-section" id="blog-section" style="display: boxed;">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-5">
           <div class="col-md-7 heading-section text-center ftco-animate">
             <h1 class="big big-2">Blog</h1>
-            <h2 class="mb-4">Our Blog</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+            <h2 class="mb-4">Mortuza Blogs</h2>
+            <h3>Welcome to Mortuza Blogs – Your Gateway to Insightful and Engaging Content!</h3>
+            <p>At Mortuza Blogs, we pride ourselves on delivering a diverse and enriching reading experience. Our website is a treasure trove of captivating blogs that cover a wide range of topics, ensuring there's something for everyone. Whether you're a seasoned enthusiast or a curious mind eager to explore new horizons, Mortuza Blogs is your go-to destination.</p>
           </div>
         </div>
-        <div class="row d-flex">
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="single.html" class="block-20" style="background-image: url('images/image_1.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-                <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-                <div class="d-flex align-items-center mb-3 meta">
-	                <p class="mb-0">
-	                	<span class="mr-2">Sept. 12, 2019</span>
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p>
-                </div>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry justify-content-end">
-              <a href="single.html" class="block-20" style="background-image: url('images/image_2.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-                <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-                <div class="d-flex align-items-center mb-3 meta">
-	                <p class="mb-0">
-	                	<span class="mr-2">Sept. 12, 2019</span>
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p>
-                </div>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 d-flex ftco-animate">
-          	<div class="blog-entry">
-              <a href="single.html" class="block-20" style="background-image: url('images/image_3.jpg');">
-              </a>
-              <div class="text mt-3 float-right d-block">
-                <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>
-                <div class="d-flex align-items-center mb-3 meta">
-	                <p class="mb-0">
-	                	<span class="mr-2">Sept. 12, 2019</span>
-	                	<a href="#" class="mr-2">Admin</a>
-	                	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>
-	                </p>
-                </div>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-              </div>
-            </div>
-          </div>
+         <div class="row d-flex">
+     <div class="container">
+   <!-- Progress Dialog -->
+    <div class="progress" id="progress" style="display: none;">
+      <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+    </div>
+
+    <!-- 3x3 Grid Layout -->
+    <div class="row post-container" id="postContainer"></div>
+
+  </div>
         </div>
+        <!--<div class="row d-flex">-->
+        <!--  <div class="col-md-4 d-flex ftco-animate">-->
+        <!--  	<div class="blog-entry justify-content-end">-->
+        <!--      <a href="single.html" class="block-20" style="background-image: url('images/image_1.jpg');">-->
+        <!--      </a>-->
+        <!--      <div class="text mt-3 float-right d-block">-->
+        <!--        <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>-->
+        <!--        <div class="d-flex align-items-center mb-3 meta">-->
+	       <!--         <p class="mb-0">-->
+	       <!--         	<span class="mr-2">Sept. 12, 2019</span>-->
+	       <!--         	<a href="#" class="mr-2">Admin</a>-->
+	       <!--         	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>-->
+	       <!--         </p>-->
+        <!--        </div>-->
+        <!--        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>-->
+        <!--      </div>-->
+        <!--    </div>-->
+        <!--  </div>-->
+        <!--  <div class="col-md-4 d-flex ftco-animate">-->
+        <!--  	<div class="blog-entry justify-content-end">-->
+        <!--      <a href="single.html" class="block-20" style="background-image: url('images/image_2.jpg');">-->
+        <!--      </a>-->
+        <!--      <div class="text mt-3 float-right d-block">-->
+        <!--        <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>-->
+        <!--        <div class="d-flex align-items-center mb-3 meta">-->
+	       <!--         <p class="mb-0">-->
+	       <!--         	<span class="mr-2">Sept. 12, 2019</span>-->
+	       <!--         	<a href="#" class="mr-2">Admin</a>-->
+	       <!--         	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>-->
+	       <!--         </p>-->
+        <!--        </div>-->
+        <!--        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>-->
+        <!--      </div>-->
+        <!--    </div>-->
+        <!--  </div>-->
+        <!--  <div class="col-md-4 d-flex ftco-animate">-->
+        <!--  	<div class="blog-entry">-->
+        <!--      <a href="single.html" class="block-20" style="background-image: url('images/image_3.jpg');">-->
+        <!--      </a>-->
+        <!--      <div class="text mt-3 float-right d-block">-->
+        <!--        <h3 class="heading"><a href="single.html">Why Lead Generation is Key for Business Growth</a></h3>-->
+        <!--        <div class="d-flex align-items-center mb-3 meta">-->
+	       <!--         <p class="mb-0">-->
+	       <!--         	<span class="mr-2">Sept. 12, 2019</span>-->
+	       <!--         	<a href="#" class="mr-2">Admin</a>-->
+	       <!--         	<a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a>-->
+	       <!--         </p>-->
+        <!--        </div>-->
+        <!--        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>-->
+        <!--      </div>-->
+        <!--    </div>-->
+        <!--  </div>-->
+        <!--</div>-->
       </div>
     </section>
 
@@ -1327,10 +1468,93 @@ payPoint </b></a></p>
   <script src="js/main.js"></script>
   <script>
 	function onClick(element) {
-		element.classList.add("img-fluid");
+	//	element.classList.add("");
 	  document.getElementById("img01").src = element.src;
 	  document.getElementById("modal01").style.display = "block";
 	}
 	</script>
+	
+	
+	<!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "138325659527730");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v18.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+	<script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const wordpressURL = 'https://blogs.mortuza.dev/';
+      const apiEndpoint = `${wordpressURL}/wp-json/wp/v2/posts?per_page=6`;
+
+      // Show progress bar while fetching content
+      const progress = document.getElementById('progress');
+      progress.style.display = 'block';
+
+      fetch(apiEndpoint)
+        .then(response => response.json())
+        .then(posts => {
+          const postContainer = document.getElementById('postContainer');
+          progress.style.display = 'none'; // Hide progress bar
+
+          // Create cards for each post
+          posts.forEach(post => {
+            const postCard = document.createElement('div');
+            postCard.className = 'col-md-4 post-card';
+
+            postCard.innerHTML =  `
+            <a href="${post.link}" target="_blank">
+              <div class="card"> <!-- Open link in a new tab -->
+                <img src="${post.jetpack_featured_media_url}" class="card-img-top" alt="Post Image">
+                <div class="card-body">
+                 <h5 class="card-title"><a href="${post.link}" target="_blank" class="card-title">${post.title.rendered}</a></h5>
+                  <p class="card-text">${post.excerpt.rendered}</p>
+                </div>
+                </a>
+            `;
+
+            postContainer.appendChild(postCard);
+          });
+        })
+        .catch(error => {
+          console.error('Error fetching posts:', error);
+          progress.style.display = 'none'; // Hide progress bar in case of an error
+        });
+    });
+  </script>
+  <script>
+    function openModal(title, description, imagePath) {
+      document.getElementById('modalImage').src = imagePath;
+      document.getElementById('modalContent').innerHTML = `<h2>${title}</h2><p>${description}</p>`;
+      document.getElementById('modal').style.display = 'flex';
+    }
+
+    function closeModal() {
+      document.getElementById('modal').style.display = 'none';
+    }
+  </script>
   </body>
 </html>
