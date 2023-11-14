@@ -9,6 +9,9 @@
     <meta name="theme-color" content="#15a5e8" />
     <meta name="robots" content="all" />
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-2HMPW6GN8C"></script>
+<!--	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>-->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>-->
+<!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>-->
 	<script>
 	  window.dataLayer = window.dataLayer || [];
 	  function gtag(){dataLayer.push(arguments);}
@@ -22,10 +25,10 @@
 	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 	})(window,document,'script','dataLayer','GTM-PC6XJF4');</script>
 	
-	 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-	
+	<!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>-->
+ <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>-->
+ <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
+	<!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">-->
 	 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- End Google Tag Manager -->
@@ -70,9 +73,6 @@
 }
     </style>
     
-  <meta charset="UTF-8">
-  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
-  <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">-->
   <style>
     .post-container {
       margin-top: 4px;
@@ -190,7 +190,7 @@
 	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<!-- End Google Tag Manager (noscript) --> 
 	  
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
+ <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
 	    <div class="container">
 	      <a class="navbar-brand" style="color: rgb(197, 110, 11);" href="index.html"><span>M</span >ortuza</a>
 	      <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -198,20 +198,23 @@
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav nav ml-auto">
-	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
-	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Resume</span></a></li>
-	          <!-- <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li> -->
-	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
-	          <li class="nav-item"><a href="#blog-section" class="nav-link"><span>Blog</span></a></li>
-	          <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
-	         
-
-	        </ul>
+	          <ul class="navbar-nav nav ml-auto">
+                <li class="nav-item"><a href="#home-section" class="nav-link" onclick="closeNavbar()"><span>Home</span></a></li>
+                <li class="nav-item"><a href="#about-section" class="nav-link" onclick="closeNavbar()"><span>About</span></a></li>
+                <li class="nav-item"><a href="#resume-section" class="nav-link" onclick="closeNavbar()"><span>Resume</span></a></li>
+                <li class="nav-item"><a href="#projects-section" class="nav-link" onclick="closeNavbar()"><span>Projects</span></a></li>
+                <li class="nav-item"><a href="#blog-section" class="nav-link" onclick="closeNavbar()"><span>Blog</span></a></li>
+                <li class="nav-item"><a href="#contact-section" class="nav-link" onclick="closeNavbar()"><span>Contact</span></a></li>
+            </ul>
 	      </div>
 	    </div>
-	  </nav>
+	  </nav> 
+	  <script>
+    function closeNavbar() {
+        // Close the navbar by selecting the button and triggering a click event
+        document.querySelector('.navbar-toggler').click();
+    }
+</script>
 	  <section class="hero-wrap responsive-image" style="background-image:url(images/code42.gif);background-position: center center;display:block">
 		<div class="overlay">
 		</div>
@@ -1212,6 +1215,7 @@ payPoint </b></a></p>
             <h2 class="mb-4">Mortuza Blogs</h2>
             <h3>Welcome to Mortuza Blogs – Your Gateway to Insightful and Engaging Content!</h3>
             <p>At Mortuza Blogs, we pride ourselves on delivering a diverse and enriching reading experience. Our website is a treasure trove of captivating blogs that cover a wide range of topics, ensuring there's something for everyone. Whether you're a seasoned enthusiast or a curious mind eager to explore new horizons, Mortuza Blogs is your go-to destination.</p>
+            <a href="https://blogs.mortuza.dev" target="_blank"><img src="images/explore.gif"></img></a>
           </div>
         </div>
          <div class="row d-flex">
@@ -1337,7 +1341,7 @@ payPoint </b></a></p>
           		</div>
           		<div>
 	          		<h3 class="mb-4">Email Address</h3>
-		            <p><a href="mailto:mortuza@squaregroup.com">mortuza@squaregroup.com</a></p>
+		            <p><a href="mailto:mortuza@squaregroup.com">shakil.isd@gmail.com</a></p>
 		          </div>
 	          </div>
           </div>
